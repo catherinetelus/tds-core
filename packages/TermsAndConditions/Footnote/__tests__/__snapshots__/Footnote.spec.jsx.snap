@@ -153,7 +153,10 @@ exports[`Footnote renders closed 1`] = `
       class="c0"
       role="dialog"
     >
-      <div>
+      <div
+        aria-modal="true"
+        role="dialog"
+      >
         <div
           tabindex="0"
         />
@@ -401,7 +404,10 @@ exports[`Footnote renders opened 1`] = `
       class="c0"
       role="dialog"
     >
-      <div>
+      <div
+        aria-modal="true"
+        role="dialog"
+      >
         <div
           tabindex="0"
         />
