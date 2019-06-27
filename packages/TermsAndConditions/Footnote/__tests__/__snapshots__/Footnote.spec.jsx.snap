@@ -154,6 +154,7 @@ exports[`Footnote renders closed 1`] = `
       role="dialog"
     >
       <div
+        aria-label="modal dialog"
         aria-modal="true"
         role="dialog"
       >
@@ -405,6 +406,7 @@ exports[`Footnote renders opened 1`] = `
       role="dialog"
     >
       <div
+        aria-label="modal dialog"
         aria-modal="true"
         role="dialog"
       >
