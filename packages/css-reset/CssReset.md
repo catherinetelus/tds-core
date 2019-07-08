@@ -1,4 +1,4 @@
-```js static
+```jsx static
 // App.jsx
 
 import '@tds/core-css-reset/dist/index.css'

@@ -329,13 +329,13 @@ module.exports = {
     path.resolve('config/globalComponents.js'),
   ].concat(styleguidistEnv === 'e2e' ? path.resolve('docs/scss/e2e.css') : []),
   styleguideComponents: {
-    Editor: path.resolve('docs/components/overrides/Editor/Editor'),
+    // Editor: path.resolve('docs/components/overrides/Editor/Editor'),
     Logo: path.resolve('docs/components/custom/Logo/Logo'),
     'Markdown/List': path.resolve('docs/components/custom/MarkdownList/MarkdownList'),
     'Markdown/MarkdownHeading': path.resolve(
       'docs/components/custom/MarkdownHeading/MarkdownHeading'
     ),
-    'Markdown/Markdown': path.resolve('docs/components/overrides/Markdown/Markdown'),
+    // 'Markdown/Markdown': path.resolve('docs/components/overrides/Markdown/Markdown'),
     PathlineRenderer: path.resolve('docs/components/overrides/Pathline/PathlineRenderer'),
     SectionHeadingRenderer: path.resolve(
       'docs/components/custom/SectionHeading/SectionHeadingRenderer'
@@ -359,6 +359,12 @@ module.exports = {
     sidebarWidth: 240,
   },
   styles: {
+    Pre: {
+      pre: {
+        border: '1px solid #e8e8e8',
+        backgroundColor: 'reds',
+      },
+    },
     // Fixing mobile overflow of code examples
     Markdown: {
       pre: {
