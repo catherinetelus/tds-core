@@ -1,6 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ExpandCollapse accessibility wraps a heading tag around a panel label 1`] = `
+.c1 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c2 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
 .c0 {
   padding: 0;
   margin: 0;
@@ -17,7 +40,7 @@ exports[`ExpandCollapse accessibility wraps a heading tag around a panel label 1
   text-align: left;
 }
 
-.c1 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -35,7 +58,7 @@ exports[`ExpandCollapse accessibility wraps a heading tag around a panel label 1
   align-items: flex-start;
 }
 
-.c2 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -53,8 +76,21 @@ exports[`ExpandCollapse accessibility wraps a heading tag around a panel label 1
   align-items: flex-start;
 }
 
-.c3 {
+.c5 {
   width: 100%;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
 }
 
 <PanelWrapper__HeaderButtonClickable
@@ -118,230 +154,304 @@ exports[`ExpandCollapse accessibility wraps a heading tag around a panel label 1
         tag="div"
         vertical={3}
       >
-        <div
-          className="TDS_Box-modules__verticalPadding-3___Fsv37"
+        <styled.div
+          inline={false}
+          tag="div"
+          vertical={3}
         >
-          <Box
-            between={3}
-            inline={true}
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  [Function],
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "iOcEwF",
+                  "rules": Array [
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            inline={false}
             tag="div"
+            vertical={3}
           >
             <div
-              className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+              className="c1"
             >
-              <PanelWrapper__CaretContainer
-                isDisabled={false}
+              <Box
+                between={3}
+                inline={true}
+                tag="div"
               >
-                <StyledComponent
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                        "isStatic": false,
-                        "lastClassName": "lkXOVg",
-                        "rules": Array [
+                <styled.div
+                  between={3}
+                  inline={true}
+                  tag="div"
+                >
+                  <StyledComponent
+                    between={3}
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [
                           [Function],
                         ],
-                      },
-                      "displayName": "PanelWrapper__CaretContainer",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                      "target": "div",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bdVaJa",
+                          "isStatic": false,
+                          "lastClassName": "iOcEwF",
+                          "rules": Array [
+                            [Function],
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "sc-bdVaJa",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
                     }
-                  }
-                  forwardedRef={null}
-                  isDisabled={false}
-                >
-                  <div
-                    className=""
+                    forwardedRef={null}
+                    inline={true}
+                    tag="div"
                   >
-                    <Translate
-                      direction="y"
-                      distance="0.25rem"
-                      in={false}
-                      timeout={300}
+                    <div
+                      className="c2"
                     >
-                      <Transition
-                        appear={false}
-                        enter={true}
-                        exit={true}
-                        in={false}
-                        mountOnEnter={false}
-                        onEnter={[Function]}
-                        onEntered={[Function]}
-                        onEntering={[Function]}
-                        onExit={[Function]}
-                        onExited={[Function]}
-                        onExiting={[Function]}
-                        timeout={300}
-                        unmountOnExit={false}
+                      <PanelWrapper__CaretContainer
+                        isDisabled={false}
                       >
-                        <div
-                          style={
+                        <StyledComponent
+                          forwardedComponent={
                             Object {
-                              "transition": "transform 300ms",
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                                "isStatic": false,
+                                "lastClassName": "lkXOVg",
+                                "rules": Array [
+                                  [Function],
+                                ],
+                              },
+                              "displayName": "PanelWrapper__CaretContainer",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
                             }
                           }
+                          forwardedRef={null}
+                          isDisabled={false}
                         >
-                          <Text
-                            block={false}
-                            bold={false}
-                            invert={false}
-                            size="large"
+                          <div
+                            className=""
                           >
-                            <span
-                              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                            <Translate
+                              direction="y"
+                              distance="0.25rem"
+                              in={false}
+                              timeout={300}
                             >
-                              <DecorativeIcon
-                                size={16}
-                                symbol="caretDown"
-                                variant="primary"
+                              <Transition
+                                appear={false}
+                                enter={true}
+                                exit={true}
+                                in={false}
+                                mountOnEnter={false}
+                                onEnter={[Function]}
+                                onEntered={[Function]}
+                                onEntering={[Function]}
+                                onExit={[Function]}
+                                onExited={[Function]}
+                                onExiting={[Function]}
+                                timeout={300}
+                                unmountOnExit={false}
                               >
-                                <Icon
-                                  aria-hidden="true"
-                                  size={16}
-                                  symbol="caretDown"
-                                  variant="primary"
+                                <div
+                                  style={
+                                    Object {
+                                      "transition": "transform 300ms",
+                                    }
+                                  }
                                 >
-                                  <i
-                                    aria-hidden="true"
-                                    className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
-                                  />
-                                </Icon>
-                              </DecorativeIcon>
-                            </span>
-                          </Text>
-                        </div>
-                      </Transition>
-                    </Translate>
-                  </div>
-                </StyledComponent>
-              </PanelWrapper__CaretContainer>
-              <PanelWrapper__HeaderContainer
-                direction="row"
-              >
-                <StyledComponent
-                  direction="row"
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                        "isStatic": false,
-                        "lastClassName": "c2",
-                        "rules": Array [
-                          [Function],
-                        ],
-                      },
-                      "displayName": "PanelWrapper__HeaderContainer",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                      "target": "div",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <div
-                    className="c1"
-                    direction="row"
-                  >
-                    <PanelWrapper__HeaderContainer
-                      direction="column"
-                    >
-                      <StyledComponent
-                        direction="column"
-                        forwardedComponent={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": Array [],
-                            "componentStyle": ComponentStyle {
-                              "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                              "isStatic": false,
-                              "lastClassName": "c2",
-                              "rules": Array [
-                                [Function],
-                              ],
-                            },
-                            "displayName": "PanelWrapper__HeaderContainer",
-                            "foldedComponentIds": Array [],
-                            "render": [Function],
-                            "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                            "target": "div",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                      >
-                        <div
-                          className="c2"
-                          direction="column"
-                        >
-                          <PanelWrapper__HeaderTitleContainer>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                    "isStatic": true,
-                                    "lastClassName": "c3",
-                                    "rules": Array [
-                                      "width: 100%;",
-                                    ],
-                                  },
-                                  "displayName": "PanelWrapper__HeaderTitleContainer",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <div
-                                className="c3"
-                              >
-                                <Text
-                                  block={false}
-                                  bold={false}
-                                  invert={false}
-                                  size="large"
-                                >
-                                  <span
-                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                  <Text
+                                    block={false}
+                                    bold={false}
+                                    invert={false}
+                                    size="large"
                                   >
-                                    Panel title
-                                  </span>
-                                </Text>
-                              </div>
-                            </StyledComponent>
-                          </PanelWrapper__HeaderTitleContainer>
-                        </div>
-                      </StyledComponent>
-                    </PanelWrapper__HeaderContainer>
-                  </div>
-                </StyledComponent>
-              </PanelWrapper__HeaderContainer>
+                                    <span
+                                      className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                    >
+                                      <DecorativeIcon
+                                        size={16}
+                                        symbol="caretDown"
+                                        variant="primary"
+                                      >
+                                        <Icon
+                                          aria-hidden="true"
+                                          size={16}
+                                          symbol="caretDown"
+                                          variant="primary"
+                                        >
+                                          <i
+                                            aria-hidden="true"
+                                            className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
+                                          />
+                                        </Icon>
+                                      </DecorativeIcon>
+                                    </span>
+                                  </Text>
+                                </div>
+                              </Transition>
+                            </Translate>
+                          </div>
+                        </StyledComponent>
+                      </PanelWrapper__CaretContainer>
+                      <PanelWrapper__HeaderContainer
+                        direction="row"
+                      >
+                        <StyledComponent
+                          direction="row"
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                "isStatic": false,
+                                "lastClassName": "c4",
+                                "rules": Array [
+                                  [Function],
+                                ],
+                              },
+                              "displayName": "PanelWrapper__HeaderContainer",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="c3"
+                            direction="row"
+                          >
+                            <PanelWrapper__HeaderContainer
+                              direction="column"
+                            >
+                              <StyledComponent
+                                direction="column"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                      "isStatic": false,
+                                      "lastClassName": "c4",
+                                      "rules": Array [
+                                        [Function],
+                                      ],
+                                    },
+                                    "displayName": "PanelWrapper__HeaderContainer",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                              >
+                                <div
+                                  className="c4"
+                                  direction="column"
+                                >
+                                  <PanelWrapper__HeaderTitleContainer>
+                                    <StyledComponent
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                            "isStatic": true,
+                                            "lastClassName": "c5",
+                                            "rules": Array [
+                                              "width: 100%;",
+                                            ],
+                                          },
+                                          "displayName": "PanelWrapper__HeaderTitleContainer",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                          "target": "div",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                    >
+                                      <div
+                                        className="c5"
+                                      >
+                                        <Text
+                                          block={false}
+                                          bold={false}
+                                          invert={false}
+                                          size="large"
+                                        >
+                                          <span
+                                            className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                          >
+                                            Panel title
+                                          </span>
+                                        </Text>
+                                      </div>
+                                    </StyledComponent>
+                                  </PanelWrapper__HeaderTitleContainer>
+                                </div>
+                              </StyledComponent>
+                            </PanelWrapper__HeaderContainer>
+                          </div>
+                        </StyledComponent>
+                      </PanelWrapper__HeaderContainer>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </Box>
             </div>
-          </Box>
-        </div>
+          </StyledComponent>
+        </styled.div>
       </Box>
     </button>
   </StyledComponent>
@@ -349,6 +459,29 @@ exports[`ExpandCollapse accessibility wraps a heading tag around a panel label 1
 `;
 
 exports[`ExpandCollapse disabled panels are rendered in a disabled treatment 1`] = `
+.c1 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c2 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
 .c0 {
   padding: 0;
   margin: 0;
@@ -367,11 +500,11 @@ exports[`ExpandCollapse disabled panels are rendered in a disabled treatment 1`]
   cursor: default;
 }
 
-.c1 {
+.c3 {
   visibility: hidden;
 }
 
-.c2 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -389,7 +522,7 @@ exports[`ExpandCollapse disabled panels are rendered in a disabled treatment 1`]
   align-items: flex-start;
 }
 
-.c3 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -407,8 +540,21 @@ exports[`ExpandCollapse disabled panels are rendered in a disabled treatment 1`]
   align-items: flex-start;
 }
 
-.c4 {
+.c6 {
   width: 100%;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
 }
 
 <button
@@ -424,230 +570,304 @@ exports[`ExpandCollapse disabled panels are rendered in a disabled treatment 1`]
     tag="div"
     vertical={3}
   >
-    <div
-      className="TDS_Box-modules__verticalPadding-3___Fsv37"
+    <styled.div
+      inline={false}
+      tag="div"
+      vertical={3}
     >
-      <Box
-        between={3}
-        inline={true}
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [
+              [Function],
+            ],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "iOcEwF",
+              "rules": Array [
+                [Function],
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        inline={false}
         tag="div"
+        vertical={3}
       >
         <div
-          className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+          className="c1"
         >
-          <PanelWrapper__CaretContainer
-            isDisabled={true}
+          <Box
+            between={3}
+            inline={true}
+            tag="div"
           >
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                    "isStatic": false,
-                    "lastClassName": "c1",
-                    "rules": Array [
+            <styled.div
+              between={3}
+              inline={true}
+              tag="div"
+            >
+              <StyledComponent
+                between={3}
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [
                       [Function],
                     ],
-                  },
-                  "displayName": "PanelWrapper__CaretContainer",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "iOcEwF",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
                 }
-              }
-              forwardedRef={null}
-              isDisabled={true}
-            >
-              <div
-                className="c1"
+                forwardedRef={null}
+                inline={true}
+                tag="div"
               >
-                <Translate
-                  direction="y"
-                  distance="0.25rem"
-                  in={false}
-                  timeout={300}
+                <div
+                  className="c2"
                 >
-                  <Transition
-                    appear={false}
-                    enter={true}
-                    exit={true}
-                    in={false}
-                    mountOnEnter={false}
-                    onEnter={[Function]}
-                    onEntered={[Function]}
-                    onEntering={[Function]}
-                    onExit={[Function]}
-                    onExited={[Function]}
-                    onExiting={[Function]}
-                    timeout={300}
-                    unmountOnExit={false}
+                  <PanelWrapper__CaretContainer
+                    isDisabled={true}
                   >
-                    <div
-                      style={
+                    <StyledComponent
+                      forwardedComponent={
                         Object {
-                          "transition": "transform 300ms",
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                            "isStatic": false,
+                            "lastClassName": "c3",
+                            "rules": Array [
+                              [Function],
+                            ],
+                          },
+                          "displayName": "PanelWrapper__CaretContainer",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
                         }
                       }
+                      forwardedRef={null}
+                      isDisabled={true}
                     >
-                      <Text
-                        block={false}
-                        bold={false}
-                        invert={false}
-                        size="large"
+                      <div
+                        className="c3"
                       >
-                        <span
-                          className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                        <Translate
+                          direction="y"
+                          distance="0.25rem"
+                          in={false}
+                          timeout={300}
                         >
-                          <DecorativeIcon
-                            size={16}
-                            symbol="caretDown"
-                            variant="primary"
+                          <Transition
+                            appear={false}
+                            enter={true}
+                            exit={true}
+                            in={false}
+                            mountOnEnter={false}
+                            onEnter={[Function]}
+                            onEntered={[Function]}
+                            onEntering={[Function]}
+                            onExit={[Function]}
+                            onExited={[Function]}
+                            onExiting={[Function]}
+                            timeout={300}
+                            unmountOnExit={false}
                           >
-                            <Icon
-                              aria-hidden="true"
-                              size={16}
-                              symbol="caretDown"
-                              variant="primary"
+                            <div
+                              style={
+                                Object {
+                                  "transition": "transform 300ms",
+                                }
+                              }
                             >
-                              <i
-                                aria-hidden="true"
-                                className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
-                              />
-                            </Icon>
-                          </DecorativeIcon>
-                        </span>
-                      </Text>
-                    </div>
-                  </Transition>
-                </Translate>
-              </div>
-            </StyledComponent>
-          </PanelWrapper__CaretContainer>
-          <PanelWrapper__HeaderContainer
-            direction="row"
-          >
-            <StyledComponent
-              direction="row"
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                    "isStatic": false,
-                    "lastClassName": "c3",
-                    "rules": Array [
-                      [Function],
-                    ],
-                  },
-                  "displayName": "PanelWrapper__HeaderContainer",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-            >
-              <div
-                className="c2"
-                direction="row"
-              >
-                <PanelWrapper__HeaderContainer
-                  direction="column"
-                >
-                  <StyledComponent
-                    direction="column"
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                          "isStatic": false,
-                          "lastClassName": "c3",
-                          "rules": Array [
-                            [Function],
-                          ],
-                        },
-                        "displayName": "PanelWrapper__HeaderContainer",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                        "target": "div",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
-                  >
-                    <div
-                      className="c3"
-                      direction="column"
-                    >
-                      <PanelWrapper__HeaderTitleContainer>
-                        <StyledComponent
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                "isStatic": true,
-                                "lastClassName": "c4",
-                                "rules": Array [
-                                  "width: 100%;",
-                                ],
-                              },
-                              "displayName": "PanelWrapper__HeaderTitleContainer",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                              "target": "div",
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
-                        >
-                          <div
-                            className="c4"
-                          >
-                            <Text
-                              block={false}
-                              bold={false}
-                              invert={false}
-                              size="large"
-                            >
-                              <span
-                                className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                              <Text
+                                block={false}
+                                bold={false}
+                                invert={false}
+                                size="large"
                               >
-                                Panel title
-                              </span>
-                            </Text>
-                          </div>
-                        </StyledComponent>
-                      </PanelWrapper__HeaderTitleContainer>
-                    </div>
-                  </StyledComponent>
-                </PanelWrapper__HeaderContainer>
-              </div>
-            </StyledComponent>
-          </PanelWrapper__HeaderContainer>
+                                <span
+                                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                >
+                                  <DecorativeIcon
+                                    size={16}
+                                    symbol="caretDown"
+                                    variant="primary"
+                                  >
+                                    <Icon
+                                      aria-hidden="true"
+                                      size={16}
+                                      symbol="caretDown"
+                                      variant="primary"
+                                    >
+                                      <i
+                                        aria-hidden="true"
+                                        className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
+                                      />
+                                    </Icon>
+                                  </DecorativeIcon>
+                                </span>
+                              </Text>
+                            </div>
+                          </Transition>
+                        </Translate>
+                      </div>
+                    </StyledComponent>
+                  </PanelWrapper__CaretContainer>
+                  <PanelWrapper__HeaderContainer
+                    direction="row"
+                  >
+                    <StyledComponent
+                      direction="row"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                            "isStatic": false,
+                            "lastClassName": "c5",
+                            "rules": Array [
+                              [Function],
+                            ],
+                          },
+                          "displayName": "PanelWrapper__HeaderContainer",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c4"
+                        direction="row"
+                      >
+                        <PanelWrapper__HeaderContainer
+                          direction="column"
+                        >
+                          <StyledComponent
+                            direction="column"
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                  "isStatic": false,
+                                  "lastClassName": "c5",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "PanelWrapper__HeaderContainer",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="c5"
+                              direction="column"
+                            >
+                              <PanelWrapper__HeaderTitleContainer>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                        "isStatic": true,
+                                        "lastClassName": "c6",
+                                        "rules": Array [
+                                          "width: 100%;",
+                                        ],
+                                      },
+                                      "displayName": "PanelWrapper__HeaderTitleContainer",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <div
+                                    className="c6"
+                                  >
+                                    <Text
+                                      block={false}
+                                      bold={false}
+                                      invert={false}
+                                      size="large"
+                                    >
+                                      <span
+                                        className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                      >
+                                        Panel title
+                                      </span>
+                                    </Text>
+                                  </div>
+                                </StyledComponent>
+                              </PanelWrapper__HeaderTitleContainer>
+                            </div>
+                          </StyledComponent>
+                        </PanelWrapper__HeaderContainer>
+                      </div>
+                    </StyledComponent>
+                  </PanelWrapper__HeaderContainer>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </Box>
         </div>
-      </Box>
-    </div>
+      </StyledComponent>
+    </styled.div>
   </Box>
 </button>
 `;
@@ -665,7 +885,41 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
   background-color: #d8d8d8;
 }
 
-.c6 {
+.c3 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c9 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.c8 {
   padding: 0;
   margin: 0;
   border-width: 0;
@@ -689,7 +943,7 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
   text-align: left;
 }
 
-.c3 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -707,7 +961,7 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
   align-items: flex-start;
 }
 
-.c4 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -725,12 +979,34 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
   align-items: flex-start;
 }
 
-.c5 {
+.c7 {
   width: 100%;
 }
 
 .c0 {
   background-color: #fff;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 <ExpandCollapse
@@ -893,230 +1169,304 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
                         tag="div"
                         vertical={3}
                       >
-                        <div
-                          className="TDS_Box-modules__verticalPadding-3___Fsv37"
+                        <styled.div
+                          inline={false}
+                          tag="div"
+                          vertical={3}
                         >
-                          <Box
-                            between={3}
-                            inline={true}
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [
+                                  [Function],
+                                ],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "c9",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            inline={false}
                             tag="div"
+                            vertical={3}
                           >
                             <div
-                              className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+                              className="c3"
                             >
-                              <PanelWrapper__CaretContainer
-                                isDisabled={false}
+                              <Box
+                                between={3}
+                                inline={true}
+                                tag="div"
                               >
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                                        "isStatic": false,
-                                        "lastClassName": "lkXOVg",
-                                        "rules": Array [
+                                <styled.div
+                                  between={3}
+                                  inline={true}
+                                  tag="div"
+                                >
+                                  <StyledComponent
+                                    between={3}
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [
                                           [Function],
                                         ],
-                                      },
-                                      "displayName": "PanelWrapper__CaretContainer",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                                      "target": "div",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "sc-bdVaJa",
+                                          "isStatic": false,
+                                          "lastClassName": "c9",
+                                          "rules": Array [
+                                            [Function],
+                                          ],
+                                        },
+                                        "displayName": "styled.div",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "sc-bdVaJa",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
                                     }
-                                  }
-                                  forwardedRef={null}
-                                  isDisabled={false}
-                                >
-                                  <div
-                                    className=""
+                                    forwardedRef={null}
+                                    inline={true}
+                                    tag="div"
                                   >
-                                    <Translate
-                                      direction="y"
-                                      distance="0.25rem"
-                                      in={false}
-                                      timeout={300}
+                                    <div
+                                      className="c4"
                                     >
-                                      <Transition
-                                        appear={false}
-                                        enter={true}
-                                        exit={true}
-                                        in={false}
-                                        mountOnEnter={false}
-                                        onEnter={[Function]}
-                                        onEntered={[Function]}
-                                        onEntering={[Function]}
-                                        onExit={[Function]}
-                                        onExited={[Function]}
-                                        onExiting={[Function]}
-                                        timeout={300}
-                                        unmountOnExit={false}
+                                      <PanelWrapper__CaretContainer
+                                        isDisabled={false}
                                       >
-                                        <div
-                                          style={
+                                        <StyledComponent
+                                          forwardedComponent={
                                             Object {
-                                              "transition": "transform 300ms",
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                                                "isStatic": false,
+                                                "lastClassName": "lkXOVg",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "PanelWrapper__CaretContainer",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
                                             }
                                           }
+                                          forwardedRef={null}
+                                          isDisabled={false}
                                         >
-                                          <Text
-                                            block={false}
-                                            bold={false}
-                                            invert={false}
-                                            size="large"
+                                          <div
+                                            className=""
                                           >
-                                            <span
-                                              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                            <Translate
+                                              direction="y"
+                                              distance="0.25rem"
+                                              in={false}
+                                              timeout={300}
                                             >
-                                              <DecorativeIcon
-                                                size={16}
-                                                symbol="caretDown"
-                                                variant="primary"
+                                              <Transition
+                                                appear={false}
+                                                enter={true}
+                                                exit={true}
+                                                in={false}
+                                                mountOnEnter={false}
+                                                onEnter={[Function]}
+                                                onEntered={[Function]}
+                                                onEntering={[Function]}
+                                                onExit={[Function]}
+                                                onExited={[Function]}
+                                                onExiting={[Function]}
+                                                timeout={300}
+                                                unmountOnExit={false}
                                               >
-                                                <Icon
-                                                  aria-hidden="true"
-                                                  size={16}
-                                                  symbol="caretDown"
-                                                  variant="primary"
+                                                <div
+                                                  style={
+                                                    Object {
+                                                      "transition": "transform 300ms",
+                                                    }
+                                                  }
                                                 >
-                                                  <i
-                                                    aria-hidden="true"
-                                                    className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
-                                                  />
-                                                </Icon>
-                                              </DecorativeIcon>
-                                            </span>
-                                          </Text>
-                                        </div>
-                                      </Transition>
-                                    </Translate>
-                                  </div>
-                                </StyledComponent>
-                              </PanelWrapper__CaretContainer>
-                              <PanelWrapper__HeaderContainer
-                                direction="row"
-                              >
-                                <StyledComponent
-                                  direction="row"
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                        "isStatic": false,
-                                        "lastClassName": "c4",
-                                        "rules": Array [
-                                          [Function],
-                                        ],
-                                      },
-                                      "displayName": "PanelWrapper__HeaderContainer",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                      "target": "div",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <div
-                                    className="c3"
-                                    direction="row"
-                                  >
-                                    <PanelWrapper__HeaderContainer
-                                      direction="column"
-                                    >
-                                      <StyledComponent
-                                        direction="column"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                              "isStatic": false,
-                                              "lastClassName": "c4",
-                                              "rules": Array [
-                                                [Function],
-                                              ],
-                                            },
-                                            "displayName": "PanelWrapper__HeaderContainer",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                            "target": "div",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                      >
-                                        <div
-                                          className="c4"
-                                          direction="column"
-                                        >
-                                          <PanelWrapper__HeaderTitleContainer>
-                                            <StyledComponent
-                                              forwardedComponent={
-                                                Object {
-                                                  "$$typeof": Symbol(react.forward_ref),
-                                                  "attrs": Array [],
-                                                  "componentStyle": ComponentStyle {
-                                                    "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                                    "isStatic": true,
-                                                    "lastClassName": "c5",
-                                                    "rules": Array [
-                                                      "width: 100%;",
-                                                    ],
-                                                  },
-                                                  "displayName": "PanelWrapper__HeaderTitleContainer",
-                                                  "foldedComponentIds": Array [],
-                                                  "render": [Function],
-                                                  "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                                  "target": "div",
-                                                  "toString": [Function],
-                                                  "warnTooManyClasses": [Function],
-                                                  "withComponent": [Function],
-                                                }
-                                              }
-                                              forwardedRef={null}
-                                            >
-                                              <div
-                                                className="c5"
-                                              >
-                                                <Text
-                                                  block={false}
-                                                  bold={false}
-                                                  invert={false}
-                                                  size="large"
-                                                >
-                                                  <span
-                                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                                  <Text
+                                                    block={false}
+                                                    bold={false}
+                                                    invert={false}
+                                                    size="large"
                                                   >
-                                                    Panel title
-                                                  </span>
-                                                </Text>
-                                              </div>
-                                            </StyledComponent>
-                                          </PanelWrapper__HeaderTitleContainer>
-                                        </div>
-                                      </StyledComponent>
-                                    </PanelWrapper__HeaderContainer>
-                                  </div>
-                                </StyledComponent>
-                              </PanelWrapper__HeaderContainer>
+                                                    <span
+                                                      className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                                    >
+                                                      <DecorativeIcon
+                                                        size={16}
+                                                        symbol="caretDown"
+                                                        variant="primary"
+                                                      >
+                                                        <Icon
+                                                          aria-hidden="true"
+                                                          size={16}
+                                                          symbol="caretDown"
+                                                          variant="primary"
+                                                        >
+                                                          <i
+                                                            aria-hidden="true"
+                                                            className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
+                                                          />
+                                                        </Icon>
+                                                      </DecorativeIcon>
+                                                    </span>
+                                                  </Text>
+                                                </div>
+                                              </Transition>
+                                            </Translate>
+                                          </div>
+                                        </StyledComponent>
+                                      </PanelWrapper__CaretContainer>
+                                      <PanelWrapper__HeaderContainer
+                                        direction="row"
+                                      >
+                                        <StyledComponent
+                                          direction="row"
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                                "isStatic": false,
+                                                "lastClassName": "c6",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "PanelWrapper__HeaderContainer",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <div
+                                            className="c5"
+                                            direction="row"
+                                          >
+                                            <PanelWrapper__HeaderContainer
+                                              direction="column"
+                                            >
+                                              <StyledComponent
+                                                direction="column"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                                      "isStatic": false,
+                                                      "lastClassName": "c6",
+                                                      "rules": Array [
+                                                        [Function],
+                                                      ],
+                                                    },
+                                                    "displayName": "PanelWrapper__HeaderContainer",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                                    "target": "div",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                              >
+                                                <div
+                                                  className="c6"
+                                                  direction="column"
+                                                >
+                                                  <PanelWrapper__HeaderTitleContainer>
+                                                    <StyledComponent
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                                            "isStatic": true,
+                                                            "lastClassName": "c7",
+                                                            "rules": Array [
+                                                              "width: 100%;",
+                                                            ],
+                                                          },
+                                                          "displayName": "PanelWrapper__HeaderTitleContainer",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                    >
+                                                      <div
+                                                        className="c7"
+                                                      >
+                                                        <Text
+                                                          block={false}
+                                                          bold={false}
+                                                          invert={false}
+                                                          size="large"
+                                                        >
+                                                          <span
+                                                            className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                                          >
+                                                            Panel title
+                                                          </span>
+                                                        </Text>
+                                                      </div>
+                                                    </StyledComponent>
+                                                  </PanelWrapper__HeaderTitleContainer>
+                                                </div>
+                                              </StyledComponent>
+                                            </PanelWrapper__HeaderContainer>
+                                          </div>
+                                        </StyledComponent>
+                                      </PanelWrapper__HeaderContainer>
+                                    </div>
+                                  </StyledComponent>
+                                </styled.div>
+                              </Box>
                             </div>
-                          </Box>
-                        </div>
+                          </StyledComponent>
+                        </styled.div>
                       </Box>
                     </button>
                   </StyledComponent>
@@ -1168,7 +1518,7 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "DimpleDivider__StyledDimpleDivider-quxnvh-0",
                                     "isStatic": true,
-                                    "lastClassName": "c6",
+                                    "lastClassName": "c8",
                                     "rules": Array [
                                       "padding: 0;",
                                       "margin: 0;",
@@ -1190,7 +1540,7 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
                               forwardedRef={null}
                             >
                               <hr
-                                className="c6"
+                                className="c8"
                               />
                             </StyledComponent>
                           </DimpleDivider__StyledDimpleDivider>
@@ -1200,31 +1550,68 @@ exports[`ExpandCollapse renders a closed panel 1`] = `
                           inset={4}
                           tag="div"
                         >
-                          <div
-                            className="TDS_Box-modules__horizontalPadding-4___3W1-P TDS_Box-modules__verticalPadding-4___QMNNa"
+                          <styled.div
+                            inline={false}
+                            inset={4}
+                            tag="div"
                           >
-                            <Text
-                              block={true}
-                              bold={false}
-                              invert={false}
-                              size="base"
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    [Function],
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bdVaJa",
+                                    "isStatic": false,
+                                    "lastClassName": "c9",
+                                    "rules": Array [
+                                      [Function],
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bdVaJa",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              inline={false}
+                              inset={4}
+                              tag="div"
                             >
-                              <span
-                                className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__base___2nkPE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__baseFont___2Cfk4 TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__blockText___2Gy51"
+                              <div
+                                className="c9"
                               >
-                                <Panel
-                                  disabled={false}
-                                  header="Panel title"
-                                  id="panel-1"
-                                  key=".0"
+                                <Text
+                                  block={true}
+                                  bold={false}
+                                  invert={false}
+                                  size="base"
                                 >
-                                  <div>
-                                    Panel content
-                                  </div>
-                                </Panel>
-                              </span>
-                            </Text>
-                          </div>
+                                  <span
+                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__base___2nkPE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__baseFont___2Cfk4 TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__blockText___2Gy51"
+                                  >
+                                    <Panel
+                                      disabled={false}
+                                      header="Panel title"
+                                      id="panel-1"
+                                      key=".0"
+                                    >
+                                      <div>
+                                        Panel content
+                                      </div>
+                                    </Panel>
+                                  </span>
+                                </Text>
+                              </div>
+                            </StyledComponent>
+                          </styled.div>
                         </Box>
                       </div>
                     </div>
@@ -1297,7 +1684,41 @@ exports[`ExpandCollapse renders an open panel 1`] = `
   background-color: #d8d8d8;
 }
 
-.c6 {
+.c3 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c9 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.c8 {
   padding: 0;
   margin: 0;
   border-width: 0;
@@ -1321,7 +1742,7 @@ exports[`ExpandCollapse renders an open panel 1`] = `
   text-align: left;
 }
 
-.c3 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1339,7 +1760,7 @@ exports[`ExpandCollapse renders an open panel 1`] = `
   align-items: flex-start;
 }
 
-.c4 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1357,12 +1778,34 @@ exports[`ExpandCollapse renders an open panel 1`] = `
   align-items: flex-start;
 }
 
-.c5 {
+.c7 {
   width: 100%;
 }
 
 .c0 {
   background-color: #fff;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 <ExpandCollapse
@@ -1545,230 +1988,304 @@ exports[`ExpandCollapse renders an open panel 1`] = `
                         tag="div"
                         vertical={3}
                       >
-                        <div
-                          className="TDS_Box-modules__verticalPadding-3___Fsv37"
+                        <styled.div
+                          inline={false}
+                          tag="div"
+                          vertical={3}
                         >
-                          <Box
-                            between={3}
-                            inline={true}
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [
+                                  [Function],
+                                ],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "c9",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            inline={false}
                             tag="div"
+                            vertical={3}
                           >
                             <div
-                              className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+                              className="c3"
                             >
-                              <PanelWrapper__CaretContainer
-                                isDisabled={false}
+                              <Box
+                                between={3}
+                                inline={true}
+                                tag="div"
                               >
-                                <StyledComponent
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                                        "isStatic": false,
-                                        "lastClassName": "lkXOVg",
-                                        "rules": Array [
+                                <styled.div
+                                  between={3}
+                                  inline={true}
+                                  tag="div"
+                                >
+                                  <StyledComponent
+                                    between={3}
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [
                                           [Function],
                                         ],
-                                      },
-                                      "displayName": "PanelWrapper__CaretContainer",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
-                                      "target": "div",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "sc-bdVaJa",
+                                          "isStatic": false,
+                                          "lastClassName": "c9",
+                                          "rules": Array [
+                                            [Function],
+                                          ],
+                                        },
+                                        "displayName": "styled.div",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "sc-bdVaJa",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
                                     }
-                                  }
-                                  forwardedRef={null}
-                                  isDisabled={false}
-                                >
-                                  <div
-                                    className=""
+                                    forwardedRef={null}
+                                    inline={true}
+                                    tag="div"
                                   >
-                                    <Translate
-                                      direction="y"
-                                      distance="-0.25rem"
-                                      in={false}
-                                      timeout={300}
+                                    <div
+                                      className="c4"
                                     >
-                                      <Transition
-                                        appear={false}
-                                        enter={true}
-                                        exit={true}
-                                        in={false}
-                                        mountOnEnter={false}
-                                        onEnter={[Function]}
-                                        onEntered={[Function]}
-                                        onEntering={[Function]}
-                                        onExit={[Function]}
-                                        onExited={[Function]}
-                                        onExiting={[Function]}
-                                        timeout={300}
-                                        unmountOnExit={false}
+                                      <PanelWrapper__CaretContainer
+                                        isDisabled={false}
                                       >
-                                        <div
-                                          style={
+                                        <StyledComponent
+                                          forwardedComponent={
                                             Object {
-                                              "transition": "transform 300ms",
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                                                "isStatic": false,
+                                                "lastClassName": "lkXOVg",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "PanelWrapper__CaretContainer",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "PanelWrapper__CaretContainer-doiyjm-1",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
                                             }
                                           }
+                                          forwardedRef={null}
+                                          isDisabled={false}
                                         >
-                                          <Text
-                                            block={false}
-                                            bold={false}
-                                            invert={false}
-                                            size="large"
+                                          <div
+                                            className=""
                                           >
-                                            <span
-                                              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                            <Translate
+                                              direction="y"
+                                              distance="-0.25rem"
+                                              in={false}
+                                              timeout={300}
                                             >
-                                              <DecorativeIcon
-                                                size={16}
-                                                symbol="caretUp"
-                                                variant="primary"
+                                              <Transition
+                                                appear={false}
+                                                enter={true}
+                                                exit={true}
+                                                in={false}
+                                                mountOnEnter={false}
+                                                onEnter={[Function]}
+                                                onEntered={[Function]}
+                                                onEntering={[Function]}
+                                                onExit={[Function]}
+                                                onExited={[Function]}
+                                                onExiting={[Function]}
+                                                timeout={300}
+                                                unmountOnExit={false}
                                               >
-                                                <Icon
-                                                  aria-hidden="true"
-                                                  size={16}
-                                                  symbol="caretUp"
-                                                  variant="primary"
+                                                <div
+                                                  style={
+                                                    Object {
+                                                      "transition": "transform 300ms",
+                                                    }
+                                                  }
                                                 >
-                                                  <i
-                                                    aria-hidden="true"
-                                                    className="TDS_Icon-modules__iconCaretUp___3PL_K TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
-                                                  />
-                                                </Icon>
-                                              </DecorativeIcon>
-                                            </span>
-                                          </Text>
-                                        </div>
-                                      </Transition>
-                                    </Translate>
-                                  </div>
-                                </StyledComponent>
-                              </PanelWrapper__CaretContainer>
-                              <PanelWrapper__HeaderContainer
-                                direction="row"
-                              >
-                                <StyledComponent
-                                  direction="row"
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                        "isStatic": false,
-                                        "lastClassName": "c4",
-                                        "rules": Array [
-                                          [Function],
-                                        ],
-                                      },
-                                      "displayName": "PanelWrapper__HeaderContainer",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                      "target": "div",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
-                                >
-                                  <div
-                                    className="c3"
-                                    direction="row"
-                                  >
-                                    <PanelWrapper__HeaderContainer
-                                      direction="column"
-                                    >
-                                      <StyledComponent
-                                        direction="column"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                              "isStatic": false,
-                                              "lastClassName": "c4",
-                                              "rules": Array [
-                                                [Function],
-                                              ],
-                                            },
-                                            "displayName": "PanelWrapper__HeaderContainer",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
-                                            "target": "div",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
-                                          }
-                                        }
-                                        forwardedRef={null}
-                                      >
-                                        <div
-                                          className="c4"
-                                          direction="column"
-                                        >
-                                          <PanelWrapper__HeaderTitleContainer>
-                                            <StyledComponent
-                                              forwardedComponent={
-                                                Object {
-                                                  "$$typeof": Symbol(react.forward_ref),
-                                                  "attrs": Array [],
-                                                  "componentStyle": ComponentStyle {
-                                                    "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                                    "isStatic": true,
-                                                    "lastClassName": "c5",
-                                                    "rules": Array [
-                                                      "width: 100%;",
-                                                    ],
-                                                  },
-                                                  "displayName": "PanelWrapper__HeaderTitleContainer",
-                                                  "foldedComponentIds": Array [],
-                                                  "render": [Function],
-                                                  "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
-                                                  "target": "div",
-                                                  "toString": [Function],
-                                                  "warnTooManyClasses": [Function],
-                                                  "withComponent": [Function],
-                                                }
-                                              }
-                                              forwardedRef={null}
-                                            >
-                                              <div
-                                                className="c5"
-                                              >
-                                                <Text
-                                                  block={false}
-                                                  bold={false}
-                                                  invert={false}
-                                                  size="large"
-                                                >
-                                                  <span
-                                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                                  <Text
+                                                    block={false}
+                                                    bold={false}
+                                                    invert={false}
+                                                    size="large"
                                                   >
-                                                    Panel title
-                                                  </span>
-                                                </Text>
-                                              </div>
-                                            </StyledComponent>
-                                          </PanelWrapper__HeaderTitleContainer>
-                                        </div>
-                                      </StyledComponent>
-                                    </PanelWrapper__HeaderContainer>
-                                  </div>
-                                </StyledComponent>
-                              </PanelWrapper__HeaderContainer>
+                                                    <span
+                                                      className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                                    >
+                                                      <DecorativeIcon
+                                                        size={16}
+                                                        symbol="caretUp"
+                                                        variant="primary"
+                                                      >
+                                                        <Icon
+                                                          aria-hidden="true"
+                                                          size={16}
+                                                          symbol="caretUp"
+                                                          variant="primary"
+                                                        >
+                                                          <i
+                                                            aria-hidden="true"
+                                                            className="TDS_Icon-modules__iconCaretUp___3PL_K TDS_Icon-modules__icon___13xYd TDS_Icon-modules__primary___2UY-N TDS_Icon-modules__size16___1pm12"
+                                                          />
+                                                        </Icon>
+                                                      </DecorativeIcon>
+                                                    </span>
+                                                  </Text>
+                                                </div>
+                                              </Transition>
+                                            </Translate>
+                                          </div>
+                                        </StyledComponent>
+                                      </PanelWrapper__CaretContainer>
+                                      <PanelWrapper__HeaderContainer
+                                        direction="row"
+                                      >
+                                        <StyledComponent
+                                          direction="row"
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                                "isStatic": false,
+                                                "lastClassName": "c6",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "PanelWrapper__HeaderContainer",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                              "target": "div",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                        >
+                                          <div
+                                            className="c5"
+                                            direction="row"
+                                          >
+                                            <PanelWrapper__HeaderContainer
+                                              direction="column"
+                                            >
+                                              <StyledComponent
+                                                direction="column"
+                                                forwardedComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "attrs": Array [],
+                                                    "componentStyle": ComponentStyle {
+                                                      "componentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                                      "isStatic": false,
+                                                      "lastClassName": "c6",
+                                                      "rules": Array [
+                                                        [Function],
+                                                      ],
+                                                    },
+                                                    "displayName": "PanelWrapper__HeaderContainer",
+                                                    "foldedComponentIds": Array [],
+                                                    "render": [Function],
+                                                    "styledComponentId": "PanelWrapper__HeaderContainer-doiyjm-2",
+                                                    "target": "div",
+                                                    "toString": [Function],
+                                                    "warnTooManyClasses": [Function],
+                                                    "withComponent": [Function],
+                                                  }
+                                                }
+                                                forwardedRef={null}
+                                              >
+                                                <div
+                                                  className="c6"
+                                                  direction="column"
+                                                >
+                                                  <PanelWrapper__HeaderTitleContainer>
+                                                    <StyledComponent
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                                            "isStatic": true,
+                                                            "lastClassName": "c7",
+                                                            "rules": Array [
+                                                              "width: 100%;",
+                                                            ],
+                                                          },
+                                                          "displayName": "PanelWrapper__HeaderTitleContainer",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "PanelWrapper__HeaderTitleContainer-doiyjm-3",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                    >
+                                                      <div
+                                                        className="c7"
+                                                      >
+                                                        <Text
+                                                          block={false}
+                                                          bold={false}
+                                                          invert={false}
+                                                          size="large"
+                                                        >
+                                                          <span
+                                                            className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__large___24W-w TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__largeFont___3k7bm TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                                          >
+                                                            Panel title
+                                                          </span>
+                                                        </Text>
+                                                      </div>
+                                                    </StyledComponent>
+                                                  </PanelWrapper__HeaderTitleContainer>
+                                                </div>
+                                              </StyledComponent>
+                                            </PanelWrapper__HeaderContainer>
+                                          </div>
+                                        </StyledComponent>
+                                      </PanelWrapper__HeaderContainer>
+                                    </div>
+                                  </StyledComponent>
+                                </styled.div>
+                              </Box>
                             </div>
-                          </Box>
-                        </div>
+                          </StyledComponent>
+                        </styled.div>
                       </Box>
                     </button>
                   </StyledComponent>
@@ -1819,7 +2336,7 @@ exports[`ExpandCollapse renders an open panel 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "DimpleDivider__StyledDimpleDivider-quxnvh-0",
                                     "isStatic": true,
-                                    "lastClassName": "c6",
+                                    "lastClassName": "c8",
                                     "rules": Array [
                                       "padding: 0;",
                                       "margin: 0;",
@@ -1841,7 +2358,7 @@ exports[`ExpandCollapse renders an open panel 1`] = `
                               forwardedRef={null}
                             >
                               <hr
-                                className="c6"
+                                className="c8"
                               />
                             </StyledComponent>
                           </DimpleDivider__StyledDimpleDivider>
@@ -1851,31 +2368,68 @@ exports[`ExpandCollapse renders an open panel 1`] = `
                           inset={4}
                           tag="div"
                         >
-                          <div
-                            className="TDS_Box-modules__horizontalPadding-4___3W1-P TDS_Box-modules__verticalPadding-4___QMNNa"
+                          <styled.div
+                            inline={false}
+                            inset={4}
+                            tag="div"
                           >
-                            <Text
-                              block={true}
-                              bold={false}
-                              invert={false}
-                              size="base"
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    [Function],
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bdVaJa",
+                                    "isStatic": false,
+                                    "lastClassName": "c9",
+                                    "rules": Array [
+                                      [Function],
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bdVaJa",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              inline={false}
+                              inset={4}
+                              tag="div"
                             >
-                              <span
-                                className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__base___2nkPE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__baseFont___2Cfk4 TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__blockText___2Gy51"
+                              <div
+                                className="c9"
                               >
-                                <Panel
-                                  disabled={false}
-                                  header="Panel title"
-                                  id="panel-1"
-                                  key=".0"
+                                <Text
+                                  block={true}
+                                  bold={false}
+                                  invert={false}
+                                  size="base"
                                 >
-                                  <div>
-                                    Panel content
-                                  </div>
-                                </Panel>
-                              </span>
-                            </Text>
-                          </div>
+                                  <span
+                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__base___2nkPE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__baseFont___2Cfk4 TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__blockText___2Gy51"
+                                  >
+                                    <Panel
+                                      disabled={false}
+                                      header="Panel title"
+                                      id="panel-1"
+                                      key=".0"
+                                    >
+                                      <div>
+                                        Panel content
+                                      </div>
+                                    </Panel>
+                                  </span>
+                                </Text>
+                              </div>
+                            </StyledComponent>
+                          </styled.div>
                         </Box>
                       </div>
                     </div>
