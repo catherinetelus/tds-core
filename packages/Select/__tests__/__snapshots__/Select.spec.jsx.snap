@@ -1,21 +1,88 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Select can have an error message 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c10 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c5 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c4 {
   border-radius: 4px;
   background-color: #fff6f8;
 }
 
-.c6 {
+.c11 {
   line-height: 1;
 }
 
-.c3 {
+.c7 {
   background-color: #fff;
   position: relative;
 }
 
-.c4 {
+.c8 {
   height: 3.25rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -46,11 +113,11 @@ exports[`Select can have an error message 1`] = `
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
 
-.c4::-ms-expand {
+.c8::-ms-expand {
   display: none;
 }
 
-.c4::-webkit-input-placeholder {
+.c8::-webkit-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -60,7 +127,7 @@ exports[`Select can have an error message 1`] = `
   color: #54595f;
 }
 
-.c4::-moz-placeholder {
+.c8::-moz-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -70,7 +137,7 @@ exports[`Select can have an error message 1`] = `
   color: #54595f;
 }
 
-.c4:-ms-input-placeholder {
+.c8:-ms-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -80,7 +147,7 @@ exports[`Select can have an error message 1`] = `
   color: #54595f;
 }
 
-.c4::placeholder {
+.c8::placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -90,25 +157,25 @@ exports[`Select can have an error message 1`] = `
   color: #54595f;
 }
 
-.c4::-webkit-inner-spin-button,
-.c4::-webkit-outer-spin-button {
+.c8::-webkit-inner-spin-button,
+.c8::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.c4:focus {
+.c8:focus {
   border-color: transparent;
   box-shadow: 0 0 4px 1px #54595f;
   background-color: #fff;
 }
 
-.c4:not(:focus) {
+.c8:not(:focus) {
   border-color: #c12335;
 }
 
-.c5 {
+.c9 {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -118,19 +185,55 @@ exports[`Select can have an error message 1`] = `
   pointer-events: none;
 }
 
-.c7 {
+.c12 {
   line-height: 1;
 }
 
-.c0 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.c2 {
+.c6 {
   position: relative;
+}
+
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c10 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c5 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 <Select
@@ -159,219 +262,74 @@ exports[`Select can have an error message 1`] = `
     inline={false}
     tag="div"
   >
-    <div
-      className="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+    <styled.div
+      between={2}
+      inline={false}
+      tag="div"
     >
-      <Box
-        between="space-between"
-        inline={true}
+      <StyledComponent
+        between={2}
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [
+              [Function],
+            ],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c10",
+              "rules": Array [
+                [Function],
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        inline={false}
         tag="div"
       >
         <div
-          className="TDS_Box-modules__spaceBetween___k4Ski TDS_Box-modules__inline___jTHcz"
+          className="c0"
         >
-          <label
-            htmlFor="some-id"
+          <Box
+            between="space-between"
+            inline={true}
+            tag="div"
           >
-            <Styled(Box)
-              between={2}
+            <styled.div
+              between="space-between"
               inline={true}
-              tag="span"
+              tag="div"
             >
               <StyledComponent
-                between={2}
+                between="space-between"
                 forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
+                    "attrs": Array [
+                      [Function],
+                    ],
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-EHOje",
-                      "isStatic": true,
-                      "lastClassName": "c0",
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c10",
                       "rules": Array [
-                        "align-items: center;",
+                        [Function],
                       ],
                     },
-                    "displayName": "Styled(Box)",
+                    "displayName": "styled.div",
                     "foldedComponentIds": Array [],
                     "render": [Function],
-                    "styledComponentId": "sc-EHOje",
-                    "target": [Function],
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
-                inline={true}
-                tag="span"
-              >
-                <Box
-                  between={2}
-                  className="c0"
-                  inline={true}
-                  tag="span"
-                >
-                  <span
-                    className="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
-                  >
-                    <Text
-                      block={false}
-                      bold={true}
-                      data-testid="selectLabel"
-                      invert={false}
-                      size="medium"
-                    >
-                      <span
-                        className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
-                        data-testid="selectLabel"
-                      >
-                        The select
-                      </span>
-                    </Text>
-                  </span>
-                </Box>
-              </StyledComponent>
-            </Styled(Box)>
-          </label>
-        </div>
-      </Box>
-      <InputFeedback
-        feedback="error"
-        id="some-id_error-message"
-      >
-        <Styled(Component)
-          feedback="error"
-          id="some-id_error-message"
-          inset={3}
-          role="alert"
-        >
-          <StyledComponent
-            feedback="error"
-            forwardedComponent={
-              Object {
-                "$$typeof": Symbol(react.forward_ref),
-                "attrs": Array [],
-                "componentStyle": ComponentStyle {
-                  "componentId": "sc-bdVaJa",
-                  "isStatic": false,
-                  "lastClassName": "c1",
-                  "rules": Array [
-                    [Function],
-                  ],
-                },
-                "displayName": "Styled(Component)",
-                "foldedComponentIds": Array [],
-                "render": [Function],
-                "styledComponentId": "sc-bdVaJa",
-                "target": [Function],
-                "toString": [Function],
-                "warnTooManyClasses": [Function],
-                "withComponent": [Function],
-              }
-            }
-            forwardedRef={null}
-            id="some-id_error-message"
-            inset={3}
-            role="alert"
-          >
-            <Component
-              className="c1"
-              feedback="error"
-              id="some-id_error-message"
-              inset={3}
-              role="alert"
-            >
-              <Box
-                className="c1"
-                id="some-id_error-message"
-                inline={false}
-                inset={3}
-                role="alert"
-                tag="div"
-              >
-                <div
-                  className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-3___Fsv37 c1"
-                  id="some-id_error-message"
-                  role="alert"
-                >
-                  <Paragraph
-                    align="left"
-                    bold={false}
-                    invert={false}
-                    size="small"
-                  >
-                    <p
-                      className="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Paragraph-modules__leftAlign___KgwhE TDS_Typography-modules__default___KlcpP"
-                    >
-                      Oh no a terrible error!
-                    </p>
-                  </Paragraph>
-                </div>
-              </Box>
-            </Component>
-          </StyledComponent>
-        </Styled(Component)>
-      </InputFeedback>
-      <styled.div
-        _css={
-          Object {
-            "position": "relative",
-          }
-        }
-      >
-        <StyledComponent
-          _css={
-            Object {
-              "position": "relative",
-            }
-          }
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bZQynM",
-                "isStatic": false,
-                "lastClassName": "c2",
-                "rules": Array [
-                  [Function],
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bZQynM",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-        >
-          <div
-            className="c2"
-          >
-            <Select__SelectWrapper>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "Select__SelectWrapper-sc-1kajzpi-0",
-                      "isStatic": true,
-                      "lastClassName": "c3",
-                      "rules": Array [
-                        "background-color: #fff;",
-                        "position: relative;",
-                      ],
-                    },
-                    "displayName": "Select__SelectWrapper",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "Select__SelectWrapper-sc-1kajzpi-0",
+                    "styledComponentId": "sc-bdVaJa",
                     "target": "div",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -379,205 +337,595 @@ exports[`Select can have an error message 1`] = `
                   }
                 }
                 forwardedRef={null}
+                inline={true}
+                tag="div"
               >
                 <div
-                  className="c3"
+                  className="c1"
                 >
-                  <Select__StyledSelect
-                    aria-describedby="some-id_error-message"
-                    aria-invalid={true}
-                    defaultValue=""
-                    feedback="error"
-                    id="some-id"
-                    onBlur={[Function]}
-                    onFocus={[Function]}
+                  <label
+                    htmlFor="some-id"
                   >
-                    <StyledComponent
-                      aria-describedby="some-id_error-message"
-                      aria-invalid={true}
-                      defaultValue=""
-                      feedback="error"
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "Select__StyledSelect-sc-1kajzpi-1",
-                            "isStatic": false,
-                            "lastClassName": "c4",
-                            "rules": Array [
-                              "height: 3.25rem;",
-                              "appearance: none;",
-                              "&::-ms-expand {",
-                              "display: none;",
-                              "}",
-                              "width: 100%;",
-                              "margin: 0;",
-                              "outline: 0;",
-                              "text-overflow: ellipsis;",
-                              "border-color: #54595f;",
-                              "background-color: #fff;",
-                              "&::placeholder {",
-                              "font: inherit;",
-                              "letter-spacing: inherit;",
-                              "line-height: inherit;",
-                              "color: #54595f;",
-                              "}",
-                              [Function],
-                              "border-width: 1px;",
-                              "border-style: solid;",
-                              "border-radius: 4px;",
-                              "font-family: \\"TELUS-Web\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif;",
-                              "word-wrap: break-word;",
-                              "font-size: 1rem;",
-                              "letter-spacing: -0.8px;",
-                              "line-height: 1.5;",
-                              "font-weight: 400;",
-                              "color: #2a2c2e;",
-                              [Function],
-                              "&:focus {",
-                              "border-color: transparent;",
-                              "box-shadow: 0 0 4px 1px #54595f;",
-                              "background-color: #fff;",
-                              "}",
-                              [Function],
+                    <Styled(Box)
+                      between={2}
+                      inline={true}
+                      tag="span"
+                    >
+                      <StyledComponent
+                        between={2}
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": true,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "align-items: center;",
+                              ],
+                            },
+                            "displayName": "Styled(Box)",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        inline={true}
+                        tag="span"
+                      >
+                        <Box
+                          between={2}
+                          className="c2"
+                          inline={true}
+                          tag="span"
+                        >
+                          <styled.div
+                            between={2}
+                            className="c2"
+                            inline={true}
+                            tag="span"
+                          >
+                            <StyledComponent
+                              between={2}
+                              className="c2"
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [
+                                    [Function],
+                                  ],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "sc-bdVaJa",
+                                    "isStatic": false,
+                                    "lastClassName": "c10",
+                                    "rules": Array [
+                                      [Function],
+                                    ],
+                                  },
+                                  "displayName": "styled.div",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "sc-bdVaJa",
+                                  "target": "div",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              inline={true}
+                              tag="span"
+                            >
+                              <span
+                                className="c2 sc-bZQynM c2 c3"
+                              >
+                                <Text
+                                  block={false}
+                                  bold={true}
+                                  data-testid="selectLabel"
+                                  invert={false}
+                                  size="medium"
+                                >
+                                  <span
+                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                                    data-testid="selectLabel"
+                                  >
+                                    The select
+                                  </span>
+                                </Text>
+                              </span>
+                            </StyledComponent>
+                          </styled.div>
+                        </Box>
+                      </StyledComponent>
+                    </Styled(Box)>
+                  </label>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </Box>
+          <InputFeedback
+            feedback="error"
+            id="some-id_error-message"
+          >
+            <Styled(Component)
+              feedback="error"
+              id="some-id_error-message"
+              inset={3}
+              role="alert"
+            >
+              <StyledComponent
+                feedback="error"
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": false,
+                      "lastClassName": "c4",
+                      "rules": Array [
+                        [Function],
+                      ],
+                    },
+                    "displayName": "Styled(Component)",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": [Function],
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                id="some-id_error-message"
+                inset={3}
+                role="alert"
+              >
+                <Component
+                  className="c4"
+                  feedback="error"
+                  id="some-id_error-message"
+                  inset={3}
+                  role="alert"
+                >
+                  <Box
+                    className="c4"
+                    id="some-id_error-message"
+                    inline={false}
+                    inset={3}
+                    role="alert"
+                    tag="div"
+                  >
+                    <styled.div
+                      className="c4"
+                      id="some-id_error-message"
+                      inline={false}
+                      inset={3}
+                      role="alert"
+                      tag="div"
+                    >
+                      <StyledComponent
+                        className="c4"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [
                               [Function],
                             ],
-                          },
-                          "displayName": "Select__StyledSelect",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "Select__StyledSelect-sc-1kajzpi-1",
-                          "target": "select",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "c10",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
                         }
+                        forwardedRef={null}
+                        id="some-id_error-message"
+                        inline={false}
+                        inset={3}
+                        role="alert"
+                        tag="div"
+                      >
+                        <div
+                          className="c4 sc-bwzfXH c4 c5"
+                          id="some-id_error-message"
+                          role="alert"
+                        >
+                          <Paragraph
+                            align="left"
+                            bold={false}
+                            invert={false}
+                            size="small"
+                          >
+                            <p
+                              className="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Paragraph-modules__leftAlign___KgwhE TDS_Typography-modules__default___KlcpP"
+                            >
+                              Oh no a terrible error!
+                            </p>
+                          </Paragraph>
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </Box>
+                </Component>
+              </StyledComponent>
+            </Styled(Component)>
+          </InputFeedback>
+          <styled.div
+            _css={
+              Object {
+                "position": "relative",
+              }
+            }
+          >
+            <StyledComponent
+              _css={
+                Object {
+                  "position": "relative",
+                }
+              }
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-gzVnrw",
+                    "isStatic": false,
+                    "lastClassName": "c6",
+                    "rules": Array [
+                      [Function],
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-gzVnrw",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c6"
+              >
+                <Select__SelectWrapper>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Select__SelectWrapper-sc-1kajzpi-0",
+                          "isStatic": true,
+                          "lastClassName": "c7",
+                          "rules": Array [
+                            "background-color: #fff;",
+                            "position: relative;",
+                          ],
+                        },
+                        "displayName": "Select__SelectWrapper",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Select__SelectWrapper-sc-1kajzpi-0",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
                       }
-                      forwardedRef={null}
-                      id="some-id"
-                      onBlur={[Function]}
-                      onFocus={[Function]}
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="c7"
                     >
-                      <select
+                      <Select__StyledSelect
                         aria-describedby="some-id_error-message"
                         aria-invalid={true}
-                        className="c4"
                         defaultValue=""
+                        feedback="error"
                         id="some-id"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
-                        <option
-                          key="value-1"
-                          value="value-1"
+                        <StyledComponent
+                          aria-describedby="some-id_error-message"
+                          aria-invalid={true}
+                          defaultValue=""
+                          feedback="error"
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Select__StyledSelect-sc-1kajzpi-1",
+                                "isStatic": false,
+                                "lastClassName": "c8",
+                                "rules": Array [
+                                  "height: 3.25rem;",
+                                  "appearance: none;",
+                                  "&::-ms-expand {",
+                                  "display: none;",
+                                  "}",
+                                  "width: 100%;",
+                                  "margin: 0;",
+                                  "outline: 0;",
+                                  "text-overflow: ellipsis;",
+                                  "border-color: #54595f;",
+                                  "background-color: #fff;",
+                                  "&::placeholder {",
+                                  "font: inherit;",
+                                  "letter-spacing: inherit;",
+                                  "line-height: inherit;",
+                                  "color: #54595f;",
+                                  "}",
+                                  [Function],
+                                  "border-width: 1px;",
+                                  "border-style: solid;",
+                                  "border-radius: 4px;",
+                                  "font-family: \\"TELUS-Web\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif;",
+                                  "word-wrap: break-word;",
+                                  "font-size: 1rem;",
+                                  "letter-spacing: -0.8px;",
+                                  "line-height: 1.5;",
+                                  "font-weight: 400;",
+                                  "color: #2a2c2e;",
+                                  [Function],
+                                  "&:focus {",
+                                  "border-color: transparent;",
+                                  "box-shadow: 0 0 4px 1px #54595f;",
+                                  "background-color: #fff;",
+                                  "}",
+                                  [Function],
+                                  [Function],
+                                ],
+                              },
+                              "displayName": "Select__StyledSelect",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Select__StyledSelect-sc-1kajzpi-1",
+                              "target": "select",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          id="some-id"
+                          onBlur={[Function]}
+                          onFocus={[Function]}
                         >
-                          text one
-                        </option>
-                        <option
-                          key="value-2"
-                          value="value-2"
-                        >
-                          text two
-                        </option>
-                      </select>
-                    </StyledComponent>
-                  </Select__StyledSelect>
-                  <Styled(Box)
-                    between={3}
-                    inline={true}
-                  >
-                    <StyledComponent
-                      between={3}
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "sc-ifAKCX",
-                            "isStatic": true,
-                            "lastClassName": "c5",
-                            "rules": Array [
-                              "position: absolute;",
-                              "top: 50%;",
-                              "transform: translateY(-50%);",
-                              "right: 1rem;",
-                              "pointer-events: none;",
-                            ],
-                          },
-                          "displayName": "Styled(Box)",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "sc-ifAKCX",
-                          "target": [Function],
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      inline={true}
-                    >
-                      <Box
-                        between={3}
-                        className="c5"
-                        inline={true}
-                        tag="div"
-                      >
-                        <div
-                          className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz c5"
-                        >
-                          <FeedbackIcon
-                            feedback="error"
-                            showIcon={true}
+                          <select
+                            aria-describedby="some-id_error-message"
+                            aria-invalid={true}
+                            className="c8"
+                            defaultValue=""
+                            id="some-id"
+                            onBlur={[Function]}
+                            onFocus={[Function]}
                           >
-                            <Fade
-                              in={true}
-                              mountOnEnter={true}
-                              timeout={100}
-                              unmountOnExit={true}
+                            <option
+                              key="value-1"
+                              value="value-1"
                             >
-                              <Transition
-                                appear={false}
-                                enter={true}
-                                exit={true}
-                                in={true}
-                                mountOnEnter={true}
-                                onEnter={[Function]}
-                                onEntered={[Function]}
-                                onEntering={[Function]}
-                                onExit={[Function]}
-                                onExited={[Function]}
-                                onExiting={[Function]}
-                                timeout={100}
-                                unmountOnExit={true}
+                              text one
+                            </option>
+                            <option
+                              key="value-2"
+                              value="value-2"
+                            >
+                              text two
+                            </option>
+                          </select>
+                        </StyledComponent>
+                      </Select__StyledSelect>
+                      <Styled(Box)
+                        between={3}
+                        inline={true}
+                      >
+                        <StyledComponent
+                          between={3}
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "sc-EHOje",
+                                "isStatic": true,
+                                "lastClassName": "c9",
+                                "rules": Array [
+                                  "position: absolute;",
+                                  "top: 50%;",
+                                  "transform: translateY(-50%);",
+                                  "right: 1rem;",
+                                  "pointer-events: none;",
+                                ],
+                              },
+                              "displayName": "Styled(Box)",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "sc-EHOje",
+                              "target": [Function],
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          inline={true}
+                        >
+                          <Box
+                            between={3}
+                            className="c9"
+                            inline={true}
+                            tag="div"
+                          >
+                            <styled.div
+                              between={3}
+                              className="c9"
+                              inline={true}
+                              tag="div"
+                            >
+                              <StyledComponent
+                                between={3}
+                                className="c9"
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [
+                                      [Function],
+                                    ],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "sc-bdVaJa",
+                                      "isStatic": false,
+                                      "lastClassName": "c10",
+                                      "rules": Array [
+                                        [Function],
+                                      ],
+                                    },
+                                    "displayName": "styled.div",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "sc-bdVaJa",
+                                    "target": "div",
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                inline={true}
+                                tag="div"
                               >
                                 <div
-                                  style={
-                                    Object {
-                                      "opacity": 1,
-                                      "transition": "opacity 100ms ease-in-out",
-                                    }
-                                  }
+                                  className="c9 sc-EHOje c9 c10"
                                 >
-                                  <FeedbackIcon__StyledIcon>
+                                  <FeedbackIcon
+                                    feedback="error"
+                                    showIcon={true}
+                                  >
+                                    <Fade
+                                      in={true}
+                                      mountOnEnter={true}
+                                      timeout={100}
+                                      unmountOnExit={true}
+                                    >
+                                      <Transition
+                                        appear={false}
+                                        enter={true}
+                                        exit={true}
+                                        in={true}
+                                        mountOnEnter={true}
+                                        onEnter={[Function]}
+                                        onEntered={[Function]}
+                                        onEntering={[Function]}
+                                        onExit={[Function]}
+                                        onExited={[Function]}
+                                        onExiting={[Function]}
+                                        timeout={100}
+                                        unmountOnExit={true}
+                                      >
+                                        <div
+                                          style={
+                                            Object {
+                                              "opacity": 1,
+                                              "transition": "opacity 100ms ease-in-out",
+                                            }
+                                          }
+                                        >
+                                          <FeedbackIcon__StyledIcon>
+                                            <StyledComponent
+                                              forwardedComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "attrs": Array [],
+                                                  "componentStyle": ComponentStyle {
+                                                    "componentId": "FeedbackIcon__StyledIcon-yxz8rh-0",
+                                                    "isStatic": true,
+                                                    "lastClassName": "c11",
+                                                    "rules": Array [
+                                                      "line-height: 1;",
+                                                    ],
+                                                  },
+                                                  "displayName": "FeedbackIcon__StyledIcon",
+                                                  "foldedComponentIds": Array [],
+                                                  "render": [Function],
+                                                  "styledComponentId": "FeedbackIcon__StyledIcon-yxz8rh-0",
+                                                  "target": "div",
+                                                  "toString": [Function],
+                                                  "warnTooManyClasses": [Function],
+                                                  "withComponent": [Function],
+                                                }
+                                              }
+                                              forwardedRef={null}
+                                            >
+                                              <div
+                                                className="c11"
+                                              >
+                                                <StandaloneIcon
+                                                  a11yText="The value of this input field is invalid."
+                                                  size={16}
+                                                  symbol="exclamationPointCircle"
+                                                  variant="error"
+                                                >
+                                                  <Icon
+                                                    aria-label="The value of this input field is invalid."
+                                                    size={16}
+                                                    symbol="exclamationPointCircle"
+                                                    variant="error"
+                                                  >
+                                                    <i
+                                                      aria-label="The value of this input field is invalid."
+                                                      className="TDS_Icon-modules__iconExclamationPointCircle___1HgRN TDS_Icon-modules__icon___13xYd TDS_Icon-modules__error___yuB9x TDS_Icon-modules__size16___1pm12"
+                                                    />
+                                                  </Icon>
+                                                </StandaloneIcon>
+                                              </div>
+                                            </StyledComponent>
+                                          </FeedbackIcon__StyledIcon>
+                                        </div>
+                                      </Transition>
+                                    </Fade>
+                                  </FeedbackIcon>
+                                  <Select__IconLineFix>
                                     <StyledComponent
                                       forwardedComponent={
                                         Object {
                                           "$$typeof": Symbol(react.forward_ref),
                                           "attrs": Array [],
                                           "componentStyle": ComponentStyle {
-                                            "componentId": "FeedbackIcon__StyledIcon-yxz8rh-0",
+                                            "componentId": "Select__IconLineFix-sc-1kajzpi-2",
                                             "isStatic": true,
-                                            "lastClassName": "c6",
+                                            "lastClassName": "c12",
                                             "rules": Array [
                                               "line-height: 1;",
                                             ],
                                           },
-                                          "displayName": "FeedbackIcon__StyledIcon",
+                                          "displayName": "Select__IconLineFix",
                                           "foldedComponentIds": Array [],
                                           "render": [Function],
-                                          "styledComponentId": "FeedbackIcon__StyledIcon-yxz8rh-0",
+                                          "styledComponentId": "Select__IconLineFix-sc-1kajzpi-2",
                                           "target": "div",
                                           "toString": [Function],
                                           "warnTooManyClasses": [Function],
@@ -587,93 +935,43 @@ exports[`Select can have an error message 1`] = `
                                       forwardedRef={null}
                                     >
                                       <div
-                                        className="c6"
+                                        className="c12"
                                       >
-                                        <StandaloneIcon
-                                          a11yText="The value of this input field is invalid."
+                                        <DecorativeIcon
                                           size={16}
-                                          symbol="exclamationPointCircle"
+                                          symbol="caretDown"
                                           variant="error"
                                         >
                                           <Icon
-                                            aria-label="The value of this input field is invalid."
+                                            aria-hidden="true"
                                             size={16}
-                                            symbol="exclamationPointCircle"
+                                            symbol="caretDown"
                                             variant="error"
                                           >
                                             <i
-                                              aria-label="The value of this input field is invalid."
-                                              className="TDS_Icon-modules__iconExclamationPointCircle___1HgRN TDS_Icon-modules__icon___13xYd TDS_Icon-modules__error___yuB9x TDS_Icon-modules__size16___1pm12"
+                                              aria-hidden="true"
+                                              className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__error___yuB9x TDS_Icon-modules__size16___1pm12"
                                             />
                                           </Icon>
-                                        </StandaloneIcon>
+                                        </DecorativeIcon>
                                       </div>
                                     </StyledComponent>
-                                  </FeedbackIcon__StyledIcon>
+                                  </Select__IconLineFix>
                                 </div>
-                              </Transition>
-                            </Fade>
-                          </FeedbackIcon>
-                          <Select__IconLineFix>
-                            <StyledComponent
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Select__IconLineFix-sc-1kajzpi-2",
-                                    "isStatic": true,
-                                    "lastClassName": "c7",
-                                    "rules": Array [
-                                      "line-height: 1;",
-                                    ],
-                                  },
-                                  "displayName": "Select__IconLineFix",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Select__IconLineFix-sc-1kajzpi-2",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                            >
-                              <div
-                                className="c7"
-                              >
-                                <DecorativeIcon
-                                  size={16}
-                                  symbol="caretDown"
-                                  variant="error"
-                                >
-                                  <Icon
-                                    aria-hidden="true"
-                                    size={16}
-                                    symbol="caretDown"
-                                    variant="error"
-                                  >
-                                    <i
-                                      aria-hidden="true"
-                                      className="TDS_Icon-modules__iconCaretDown___3by8b TDS_Icon-modules__icon___13xYd TDS_Icon-modules__error___yuB9x TDS_Icon-modules__size16___1pm12"
-                                    />
-                                  </Icon>
-                                </DecorativeIcon>
-                              </div>
-                            </StyledComponent>
-                          </Select__IconLineFix>
-                        </div>
-                      </Box>
-                    </StyledComponent>
-                  </Styled(Box)>
-                </div>
-              </StyledComponent>
-            </Select__SelectWrapper>
-          </div>
-        </StyledComponent>
-      </styled.div>
-    </div>
+                              </StyledComponent>
+                            </styled.div>
+                          </Box>
+                        </StyledComponent>
+                      </Styled(Box)>
+                    </div>
+                  </StyledComponent>
+                </Select__SelectWrapper>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </div>
+      </StyledComponent>
+    </styled.div>
   </Box>
 </Select>
 `;
@@ -685,11 +983,31 @@ exports[`Select disabling removes the positioning of the select so that the disa
 exports[`Select feedback states ensures that the contents do not overlap the icons 1`] = `[Function]`;
 
 exports[`Select label can have a short hint 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 .c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (min-width:768px) {
+  .c1 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
 }
 
 <label
@@ -707,7 +1025,7 @@ exports[`Select label can have a short hint 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-EHOje",
+            "componentId": "sc-bZQynM",
             "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
@@ -717,7 +1035,7 @@ exports[`Select label can have a short hint 1`] = `
           "displayName": "Styled(Box)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-EHOje",
+          "styledComponentId": "sc-bZQynM",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -734,38 +1052,77 @@ exports[`Select label can have a short hint 1`] = `
         inline={true}
         tag="span"
       >
-        <span
-          className="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        <styled.div
+          between={2}
+          className="c0"
+          inline={true}
+          tag="span"
         >
-          <Text
-            block={false}
-            bold={true}
-            data-testid="selectLabel"
-            invert={false}
-            size="medium"
+          <StyledComponent
+            between={2}
+            className="c0"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  [Function],
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "jBpgvN",
+                  "rules": Array [
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            inline={true}
+            tag="span"
           >
             <span
-              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
-              data-testid="selectLabel"
+              className="c0 sc-bZQynM c0 c1"
             >
-              The select
+              <Text
+                block={false}
+                bold={true}
+                data-testid="selectLabel"
+                invert={false}
+                size="medium"
+              >
+                <span
+                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                  data-testid="selectLabel"
+                >
+                  The select
+                </span>
+              </Text>
+              <Text
+                block={false}
+                bold={false}
+                id="the-select_hint"
+                invert={false}
+                size="small"
+              >
+                <span
+                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                  id="the-select_hint"
+                >
+                  The short hint
+                </span>
+              </Text>
             </span>
-          </Text>
-          <Text
-            block={false}
-            bold={false}
-            id="the-select_hint"
-            invert={false}
-            size="small"
-          >
-            <span
-              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
-              id="the-select_hint"
-            >
-              The short hint
-            </span>
-          </Text>
-        </span>
+          </StyledComponent>
+        </styled.div>
       </Box>
     </StyledComponent>
   </Styled(Box)>
@@ -773,11 +1130,31 @@ exports[`Select label can have a short hint 1`] = `
 `;
 
 exports[`Select label must have a label 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 .c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (min-width:768px) {
+  .c1 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
 }
 
 <label
@@ -795,7 +1172,7 @@ exports[`Select label must have a label 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-EHOje",
+            "componentId": "sc-bZQynM",
             "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
@@ -805,7 +1182,7 @@ exports[`Select label must have a label 1`] = `
           "displayName": "Styled(Box)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-EHOje",
+          "styledComponentId": "sc-bZQynM",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -822,24 +1199,63 @@ exports[`Select label must have a label 1`] = `
         inline={true}
         tag="span"
       >
-        <span
-          className="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        <styled.div
+          between={2}
+          className="c0"
+          inline={true}
+          tag="span"
         >
-          <Text
-            block={false}
-            bold={true}
-            data-testid="selectLabel"
-            invert={false}
-            size="medium"
+          <StyledComponent
+            between={2}
+            className="c0"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  [Function],
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "jBpgvN",
+                  "rules": Array [
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            inline={true}
+            tag="span"
           >
             <span
-              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
-              data-testid="selectLabel"
+              className="c0 sc-bZQynM c0 c1"
             >
-              The label
+              <Text
+                block={false}
+                bold={true}
+                data-testid="selectLabel"
+                invert={false}
+                size="medium"
+              >
+                <span
+                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                  data-testid="selectLabel"
+                >
+                  The label
+                </span>
+              </Text>
             </span>
-          </Text>
-        </span>
+          </StyledComponent>
+        </styled.div>
       </Box>
     </StyledComponent>
   </Styled(Box)>
@@ -851,12 +1267,68 @@ exports[`Select needs a set of options 1`] = `[Function]`;
 exports[`Select positions the down caret so that the text does not overlap it 1`] = `[Function]`;
 
 exports[`Select renders 1`] = `
-.c2 {
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c5 {
   background-color: #fff;
   position: relative;
 }
 
-.c3 {
+.c6 {
   height: 3.25rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -887,11 +1359,11 @@ exports[`Select renders 1`] = `
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
 
-.c3::-ms-expand {
+.c6::-ms-expand {
   display: none;
 }
 
-.c3::-webkit-input-placeholder {
+.c6::-webkit-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -901,7 +1373,7 @@ exports[`Select renders 1`] = `
   color: #54595f;
 }
 
-.c3::-moz-placeholder {
+.c6::-moz-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -911,7 +1383,7 @@ exports[`Select renders 1`] = `
   color: #54595f;
 }
 
-.c3:-ms-input-placeholder {
+.c6:-ms-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -921,7 +1393,7 @@ exports[`Select renders 1`] = `
   color: #54595f;
 }
 
-.c3::placeholder {
+.c6::placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -931,21 +1403,21 @@ exports[`Select renders 1`] = `
   color: #54595f;
 }
 
-.c3::-webkit-inner-spin-button,
-.c3::-webkit-outer-spin-button {
+.c6::-webkit-inner-spin-button,
+.c6::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.c3:focus {
+.c6:focus {
   border-color: transparent;
   box-shadow: 0 0 4px 1px #54595f;
   background-color: #fff;
 }
 
-.c4 {
+.c7 {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -955,32 +1427,59 @@ exports[`Select renders 1`] = `
   pointer-events: none;
 }
 
-.c5 {
+.c9 {
   line-height: 1;
 }
 
-.c0 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.c1 {
+.c4 {
   position: relative;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c8 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
 <div
-  class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+  class="c0"
 >
   <div
-    class="TDS_Box-modules__spaceBetween___k4Ski TDS_Box-modules__inline___jTHcz"
+    class="c1"
   >
     <label
       for="the-select"
     >
       <span
-        class="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        class="c2 sc-bZQynM c2 c3"
       >
         <span
           class="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
@@ -992,14 +1491,14 @@ exports[`Select renders 1`] = `
     </label>
   </div>
   <div
-    class="c1"
+    class="c4"
   >
     <div
-      class="c2"
+      class="c5"
     >
       <select
         aria-invalid="false"
-        class="c3"
+        class="c6"
         id="the-select"
       >
         <option
@@ -1014,10 +1513,10 @@ exports[`Select renders 1`] = `
         </option>
       </select>
       <div
-        class="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz c4"
+        class="c7 sc-EHOje c7 c8"
       >
         <div
-          class="c5"
+          class="c9"
         >
           <i
             aria-hidden="true"
@@ -1031,16 +1530,72 @@ exports[`Select renders 1`] = `
 `;
 
 exports[`Select renders with a feedback state and icon 1`] = `
-.c5 {
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c8 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c9 {
   line-height: 1;
 }
 
-.c2 {
+.c5 {
   background-color: #fff;
   position: relative;
 }
 
-.c3 {
+.c6 {
   height: 3.25rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1071,11 +1626,11 @@ exports[`Select renders with a feedback state and icon 1`] = `
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
 
-.c3::-ms-expand {
+.c6::-ms-expand {
   display: none;
 }
 
-.c3::-webkit-input-placeholder {
+.c6::-webkit-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -1085,7 +1640,7 @@ exports[`Select renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c3::-moz-placeholder {
+.c6::-moz-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -1095,7 +1650,7 @@ exports[`Select renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c3:-ms-input-placeholder {
+.c6:-ms-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -1105,7 +1660,7 @@ exports[`Select renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c3::placeholder {
+.c6::placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -1115,25 +1670,25 @@ exports[`Select renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c3::-webkit-inner-spin-button,
-.c3::-webkit-outer-spin-button {
+.c6::-webkit-inner-spin-button,
+.c6::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.c3:focus {
+.c6:focus {
   border-color: transparent;
   box-shadow: 0 0 4px 1px #54595f;
   background-color: #fff;
 }
 
-.c3:not(:focus) {
+.c6:not(:focus) {
   border-color: #c12335;
 }
 
-.c4 {
+.c7 {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1143,32 +1698,59 @@ exports[`Select renders with a feedback state and icon 1`] = `
   pointer-events: none;
 }
 
-.c6 {
+.c10 {
   line-height: 1;
 }
 
-.c0 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.c1 {
+.c4 {
   position: relative;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c8 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
 <div
-  class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+  class="c0"
 >
   <div
-    class="TDS_Box-modules__spaceBetween___k4Ski TDS_Box-modules__inline___jTHcz"
+    class="c1"
   >
     <label
       for="the-select"
     >
       <span
-        class="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        class="c2 sc-bZQynM c2 c3"
       >
         <span
           class="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
@@ -1180,14 +1762,14 @@ exports[`Select renders with a feedback state and icon 1`] = `
     </label>
   </div>
   <div
-    class="c1"
+    class="c4"
   >
     <div
-      class="c2"
+      class="c5"
     >
       <select
         aria-invalid="true"
-        class="c3"
+        class="c6"
         id="the-select"
       >
         <option
@@ -1202,13 +1784,13 @@ exports[`Select renders with a feedback state and icon 1`] = `
         </option>
       </select>
       <div
-        class="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz c4"
+        class="c7 sc-EHOje c7 c8"
       >
         <div
           style="transition:opacity 100ms ease-in-out;opacity:1"
         >
           <div
-            class="c5"
+            class="c9"
           >
             <i
               aria-label="The value of this input field is invalid."
@@ -1217,7 +1799,7 @@ exports[`Select renders with a feedback state and icon 1`] = `
           </div>
         </div>
         <div
-          class="c6"
+          class="c10"
         >
           <i
             aria-hidden="true"
