@@ -1,7 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox allows numbers as value 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c6 {
   height: 20px;
   width: 20px;
   min-height: 20px;
@@ -31,17 +59,17 @@ exports[`Checkbox allows numbers as value 1`] = `
   background-color: #fff;
 }
 
-.c4 > i {
+.c6 > i {
   display: none;
 }
 
-.c1 {
+.c2 {
   position: fixed;
   opacity: 0;
   pointer-events: none;
 }
 
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -49,35 +77,47 @@ exports[`Checkbox allows numbers as value 1`] = `
   cursor: pointer;
 }
 
-.c0:focus ~ .c2 > div > .c3 {
+.c1:focus ~ .c3 > div > .c5 {
   box-shadow: 0 0 4px 1px #54595f;
   border-color: #fff;
 }
 
-.c0:checked ~ .c2 > div > .c3 {
+.c1:checked ~ .c3 > div > .c5 {
   background-color: #248700;
   border-color: #248700;
 }
 
-.c0:checked ~ .c2 > div > .c3 > i {
+.c1:checked ~ .c3 > div > .c5 > i {
   display: block;
 }
 
-.c0:disabled ~ .c2 > div > .c3 {
+.c1:disabled ~ .c3 > div > .c5 {
   background-color: #d8d8d8;
   border-color: #d8d8d8;
 }
 
-.c0:disabled ~ .c2 > div > div {
+.c1:disabled ~ .c3 > div > div {
   color: #d8d8d8;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
 <div
-  class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+  class="c0"
 >
   <input
     aria-invalid="false"
-    class="c0 c1"
+    class="c1 c2"
     data-testid="hidden-input"
     id="the-group-name_1"
     name="the-group-name"
@@ -85,15 +125,15 @@ exports[`Checkbox allows numbers as value 1`] = `
     value="1"
   />
   <label
-    class="c2"
+    class="c3"
     data-testid="checkbox-label"
     for="the-group-name_1"
   >
     <div
-      class="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+      class="c4"
     >
       <span
-        class="c3 c4"
+        class="c5 c6"
         data-testid="fake-input"
       >
         <i
@@ -1804,9 +1844,29 @@ Array [
 `;
 
 exports[`Checkbox error can have an error message 3`] = `
+.c1 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .c0 {
   border-radius: 4px;
   background-color: #fff6f8;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 <InputFeedback
@@ -1826,7 +1886,7 @@ exports[`Checkbox error can have an error message 3`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
+            "componentId": "sc-bwzfXH",
             "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
@@ -1836,7 +1896,7 @@ exports[`Checkbox error can have an error message 3`] = `
           "displayName": "Styled(Component)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
+          "styledComponentId": "sc-bwzfXH",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -1863,24 +1923,67 @@ exports[`Checkbox error can have an error message 3`] = `
           role="alert"
           tag="div"
         >
-          <div
-            className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-3___Fsv37 c0"
+          <styled.div
+            className="c0"
             id="the-group-namethe-value_error-message"
+            inline={false}
+            inset={3}
             role="alert"
+            tag="div"
           >
-            <Paragraph
-              align="left"
-              bold={false}
-              invert={false}
-              size="small"
+            <StyledComponent
+              className="c0"
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [
+                    [Function],
+                  ],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bdVaJa",
+                    "isStatic": false,
+                    "lastClassName": "jBpgvN",
+                    "rules": Array [
+                      [Function],
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bdVaJa",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              id="the-group-namethe-value_error-message"
+              inline={false}
+              inset={3}
+              role="alert"
+              tag="div"
             >
-              <p
-                className="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Paragraph-modules__leftAlign___KgwhE TDS_Typography-modules__default___KlcpP"
+              <div
+                className="c0 sc-bwzfXH c0 c1"
+                id="the-group-namethe-value_error-message"
+                role="alert"
               >
-                Error message
-              </p>
-            </Paragraph>
-          </div>
+                <Paragraph
+                  align="left"
+                  bold={false}
+                  invert={false}
+                  size="small"
+                >
+                  <p
+                    className="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__color___2CNH8 TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Paragraph-modules__leftAlign___KgwhE TDS_Typography-modules__default___KlcpP"
+                  >
+                    Error message
+                  </p>
+                </Paragraph>
+              </div>
+            </StyledComponent>
+          </styled.div>
         </Box>
       </Component>
     </StyledComponent>
@@ -3263,7 +3366,21 @@ Array [
 
 exports[`Checkbox must have a label 1`] = `
 Array [
-  .c1 {
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c2 {
   height: 20px;
   width: 20px;
   min-height: 20px;
@@ -3293,31 +3410,37 @@ Array [
   background-color: #fff;
 }
 
-.c1 > i {
+.c2 > i {
   display: none;
 }
 
-.c3:focus ~ .c2 > div > .c0 {
+.c4:focus ~ .c3 > div > .c1 {
   box-shadow: 0 0 4px 1px #54595f;
   border-color: #fff;
 }
 
-.c3:checked ~ .c2 > div > .c0 {
+.c4:checked ~ .c3 > div > .c1 {
   background-color: #248700;
   border-color: #248700;
 }
 
-.c3:checked ~ .c2 > div > .c0 > i {
+.c4:checked ~ .c3 > div > .c1 > i {
   display: block;
 }
 
-.c3:disabled ~ .c2 > div > .c0 {
+.c4:disabled ~ .c3 > div > .c1 {
   background-color: #d8d8d8;
   border-color: #d8d8d8;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
 <div
-    className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+    className="c0"
   >
     <Checkbox__FakeCheckbox
       data-testid="fake-input"
@@ -3329,9 +3452,9 @@ Array [
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "c0",
+              "componentId": "c1",
               "isStatic": true,
-              "lastClassName": "c1",
+              "lastClassName": "c2",
               "rules": Array [
                 "height: 20px;",
                 "width: 20px;",
@@ -3358,7 +3481,7 @@ Array [
             "displayName": "Checkbox__FakeCheckbox",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "c0",
+            "styledComponentId": "c1",
             "target": "span",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -3368,7 +3491,7 @@ Array [
         forwardedRef={null}
       >
         <span
-          className="c0 c1"
+          className="c1 c2"
           data-testid="fake-input"
         >
           <DecorativeIcon
@@ -3400,9 +3523,9 @@ Array [
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
+              "componentId": "sc-htpNat",
               "isStatic": false,
-              "lastClassName": "uTxCW",
+              "lastClassName": "KtFsv",
               "rules": Array [
                 [Function],
               ],
@@ -3410,7 +3533,7 @@ Array [
             "displayName": "Styled(ColoredTextProvider)",
             "foldedComponentIds": Array [],
             "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
+            "styledComponentId": "sc-htpNat",
             "target": [Function],
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -3465,7 +3588,35 @@ Array [
 `;
 
 exports[`Checkbox renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 .c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c6 {
   height: 20px;
   width: 20px;
   min-height: 20px;
@@ -3495,17 +3646,17 @@ exports[`Checkbox renders 1`] = `
   background-color: #fff;
 }
 
-.c4 > i {
+.c6 > i {
   display: none;
 }
 
-.c1 {
+.c2 {
   position: fixed;
   opacity: 0;
   pointer-events: none;
 }
 
-.c2 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3513,35 +3664,47 @@ exports[`Checkbox renders 1`] = `
   cursor: pointer;
 }
 
-.c0:focus ~ .c2 > div > .c3 {
+.c1:focus ~ .c3 > div > .c5 {
   box-shadow: 0 0 4px 1px #54595f;
   border-color: #fff;
 }
 
-.c0:checked ~ .c2 > div > .c3 {
+.c1:checked ~ .c3 > div > .c5 {
   background-color: #248700;
   border-color: #248700;
 }
 
-.c0:checked ~ .c2 > div > .c3 > i {
+.c1:checked ~ .c3 > div > .c5 > i {
   display: block;
 }
 
-.c0:disabled ~ .c2 > div > .c3 {
+.c1:disabled ~ .c3 > div > .c5 {
   background-color: #d8d8d8;
   border-color: #d8d8d8;
 }
 
-.c0:disabled ~ .c2 > div > div {
+.c1:disabled ~ .c3 > div > div {
   color: #d8d8d8;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
 <div
-  class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+  class="c0"
 >
   <input
     aria-invalid="false"
-    class="c0 c1"
+    class="c1 c2"
     data-testid="hidden-input"
     id="the-group-name_the-value"
     name="the-group-name"
@@ -3549,15 +3712,15 @@ exports[`Checkbox renders 1`] = `
     value="the-value"
   />
   <label
-    class="c2"
+    class="c3"
     data-testid="checkbox-label"
     for="the-group-name_the-value"
   >
     <div
-      class="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+      class="c4"
     >
       <span
-        class="c3 c4"
+        class="c5 c6"
         data-testid="fake-input"
       >
         <i
