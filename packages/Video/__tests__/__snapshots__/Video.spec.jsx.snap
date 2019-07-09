@@ -1,6 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Video renders 1`] = `
+.c8 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c23 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
 .c4 {
   position: absolute;
   width: 100%;
@@ -80,7 +103,7 @@ exports[`Video renders 1`] = `
   display: none;
 }
 
-.c8 {
+.c9 {
   display: block;
 }
 
@@ -95,7 +118,7 @@ exports[`Video renders 1`] = `
   cursor: pointer;
 }
 
-.c15 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -107,13 +130,13 @@ exports[`Video renders 1`] = `
   align-items: center;
 }
 
-.c17 {
+.c18 {
   width: 100%;
   cursor: pointer;
   padding: 5px 0;
 }
 
-input[type=range].c17 {
+input[type=range].c18 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -121,11 +144,11 @@ input[type=range].c17 {
   background: transparent;
 }
 
-input[type=range].c17:focus {
+input[type=range].c18:focus {
   outline: none;
 }
 
-input[type=range].c17::-webkit-slider-thumb {
+input[type=range].c18::-webkit-slider-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -137,7 +160,7 @@ input[type=range].c17::-webkit-slider-thumb {
   margin-top: -3px;
 }
 
-input[type=range].c17::-moz-range-thumb {
+input[type=range].c18::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -150,7 +173,7 @@ input[type=range].c17::-moz-range-thumb {
   border: none;
 }
 
-input[type=range].c17::-ms-thumb {
+input[type=range].c18::-ms-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -163,25 +186,25 @@ input[type=range].c17::-ms-thumb {
   border: none;
 }
 
-input[type=range].c17::-webkit-slider-thumb:hover {
+input[type=range].c18::-webkit-slider-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c17::-moz-range-thumb:hover {
+input[type=range].c18::-moz-range-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c17::-ms-thumb:hover {
+input[type=range].c18::-ms-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c17::-webkit-slider-runnable-track {
+input[type=range].c18::-webkit-slider-runnable-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -189,7 +212,7 @@ input[type=range].c17::-webkit-slider-runnable-track {
   background: linear-gradient(to right,#6c0 0%,#6c0 NaN% ,rgba(255,255,255,0.5) NaN%);
 }
 
-input[type=range].c17::-moz-range-track {
+input[type=range].c18::-moz-range-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -197,7 +220,7 @@ input[type=range].c17::-moz-range-track {
   background: linear-gradient(to right,#6c0 0%,#6c0 NaN% ,rgba(255,255,255,0.5) NaN%);
 }
 
-input[type=range].c17::-ms-track {
+input[type=range].c18::-ms-track {
   width: 100%;
   height: 2px;
   margin: 6px 0;
@@ -207,29 +230,29 @@ input[type=range].c17::-ms-track {
   background: linear-gradient(to right,#6c0 0%,#6c0 NaN% ,rgba(255,255,255,0.5) NaN%);
 }
 
-input[type=range].c17::-ms-fill-lower {
+input[type=range].c18::-ms-fill-lower {
   background: transparent;
 }
 
-input[type=range].c17::-ms-tooltip {
+input[type=range].c18::-ms-tooltip {
   display: none;
 }
 
-input[type=range].c17::-ms-tooltip {
+input[type=range].c18::-ms-tooltip {
   display: none;
 }
 
-.c16 {
+.c17 {
   color: #6c0;
   margin: 0 0.5rem;
 }
 
-.c18 {
+.c19 {
   color: white;
   margin: 0 0.5rem;
 }
 
-.c20 {
+.c21 {
   background: none;
   color: inherit;
   border: none;
@@ -246,7 +269,7 @@ input[type=range].c17::-ms-tooltip {
   align-items: center;
 }
 
-.c19 {
+.c20 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -260,13 +283,13 @@ input[type=range].c17::-ms-tooltip {
   align-items: center;
 }
 
-.c21 {
+.c22 {
   width: 100%;
   cursor: pointer;
   padding: 5px 0;
 }
 
-input[type=range].c21 {
+input[type=range].c22 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -274,11 +297,11 @@ input[type=range].c21 {
   background: transparent;
 }
 
-input[type=range].c21:focus {
+input[type=range].c22:focus {
   outline: none;
 }
 
-input[type=range].c21::-webkit-slider-thumb {
+input[type=range].c22::-webkit-slider-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -290,7 +313,7 @@ input[type=range].c21::-webkit-slider-thumb {
   margin-top: -3px;
 }
 
-input[type=range].c21::-moz-range-thumb {
+input[type=range].c22::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -303,7 +326,7 @@ input[type=range].c21::-moz-range-thumb {
   border: none;
 }
 
-input[type=range].c21::-ms-thumb {
+input[type=range].c22::-ms-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -316,25 +339,25 @@ input[type=range].c21::-ms-thumb {
   border: none;
 }
 
-input[type=range].c21::-webkit-slider-thumb:hover {
+input[type=range].c22::-webkit-slider-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c21::-moz-range-thumb:hover {
+input[type=range].c22::-moz-range-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c21::-ms-thumb:hover {
+input[type=range].c22::-ms-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c21::-webkit-slider-runnable-track {
+input[type=range].c22::-webkit-slider-runnable-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -342,7 +365,7 @@ input[type=range].c21::-webkit-slider-runnable-track {
   background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,1)99.99% ,rgba(255,255,255,0.5) 100%);
 }
 
-input[type=range].c21::-moz-range-track {
+input[type=range].c22::-moz-range-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -350,7 +373,7 @@ input[type=range].c21::-moz-range-track {
   background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,1)99.99% ,rgba(255,255,255,0.5) 100%);
 }
 
-input[type=range].c21::-ms-track {
+input[type=range].c22::-ms-track {
   width: 100%;
   height: 2px;
   margin: 6px 0;
@@ -360,19 +383,19 @@ input[type=range].c21::-ms-track {
   background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,1)99.99% ,rgba(255,255,255,0.5) 100%);
 }
 
-input[type=range].c21::-ms-fill-lower {
+input[type=range].c22::-ms-fill-lower {
   background: transparent;
 }
 
-input[type=range].c21::-ms-tooltip {
+input[type=range].c22::-ms-tooltip {
   display: none;
 }
 
-input[type=range].c21::-ms-tooltip {
+input[type=range].c22::-ms-tooltip {
   display: none;
 }
 
-.c12 {
+.c13 {
   width: 100%;
   position: relative;
   -webkit-transition: opacity 0.4s;
@@ -380,7 +403,7 @@ input[type=range].c21::-ms-tooltip {
   opacity: 0;
 }
 
-.c13 {
+.c14 {
   position: absolute;
   width: 100%;
   height: 56px;
@@ -402,7 +425,7 @@ input[type=range].c21::-ms-tooltip {
   z-index: 9;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -419,14 +442,14 @@ input[type=range].c21::-ms-tooltip {
   position: relative;
 }
 
-.c10 {
+.c11 {
   outline: none;
   width: 100%;
   height: 100%;
   font-size: 0;
 }
 
-.c11 {
+.c12 {
   width: 100%;
   height: 100%;
 }
@@ -445,7 +468,7 @@ input[type=range].c21::-ms-tooltip {
   z-index: 5;
 }
 
-.c9 {
+.c10 {
   position: absolute;
   z-index: 4;
   display: -webkit-box;
@@ -465,6 +488,19 @@ input[type=range].c21::-ms-tooltip {
 }
 
 @media (min-width:768px) {
+  .c8 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c23 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
   .c5 {
     width: 200px;
     height: 200px;
@@ -478,7 +514,7 @@ input[type=range].c21::-ms-tooltip {
 }
 
 @media (min-width:768px) {
-  .c8 {
+  .c9 {
     display: none;
   }
 }
@@ -593,7 +629,30 @@ input[type=range].c21::-ms-tooltip {
       }
       forwardedRef={
         Object {
-          "current": .c4 {
+          "current": .c8 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c23 > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.c4 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -672,7 +731,7 @@ input[type=range].c21::-ms-tooltip {
   display: none;
 }
 
-.c8 {
+.c9 {
   display: block;
 }
 
@@ -687,7 +746,7 @@ input[type=range].c21::-ms-tooltip {
   cursor: pointer;
 }
 
-.c15 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -699,13 +758,13 @@ input[type=range].c21::-ms-tooltip {
   align-items: center;
 }
 
-.c17 {
+.c18 {
   width: 100%;
   cursor: pointer;
   padding: 5px 0;
 }
 
-input[type=range].c17 {
+input[type=range].c18 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -713,11 +772,11 @@ input[type=range].c17 {
   background: transparent;
 }
 
-input[type=range].c17:focus {
+input[type=range].c18:focus {
   outline: none;
 }
 
-input[type=range].c17::-webkit-slider-thumb {
+input[type=range].c18::-webkit-slider-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -729,7 +788,7 @@ input[type=range].c17::-webkit-slider-thumb {
   margin-top: -3px;
 }
 
-input[type=range].c17::-moz-range-thumb {
+input[type=range].c18::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -742,7 +801,7 @@ input[type=range].c17::-moz-range-thumb {
   border: none;
 }
 
-input[type=range].c17::-ms-thumb {
+input[type=range].c18::-ms-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -755,25 +814,25 @@ input[type=range].c17::-ms-thumb {
   border: none;
 }
 
-input[type=range].c17::-webkit-slider-thumb:hover {
+input[type=range].c18::-webkit-slider-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c17::-moz-range-thumb:hover {
+input[type=range].c18::-moz-range-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c17::-ms-thumb:hover {
+input[type=range].c18::-ms-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c17::-webkit-slider-runnable-track {
+input[type=range].c18::-webkit-slider-runnable-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -781,7 +840,7 @@ input[type=range].c17::-webkit-slider-runnable-track {
   background: linear-gradient(to right,#6c0 0%,#6c0 NaN% ,rgba(255,255,255,0.5) NaN%);
 }
 
-input[type=range].c17::-moz-range-track {
+input[type=range].c18::-moz-range-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -789,7 +848,7 @@ input[type=range].c17::-moz-range-track {
   background: linear-gradient(to right,#6c0 0%,#6c0 NaN% ,rgba(255,255,255,0.5) NaN%);
 }
 
-input[type=range].c17::-ms-track {
+input[type=range].c18::-ms-track {
   width: 100%;
   height: 2px;
   margin: 6px 0;
@@ -799,29 +858,29 @@ input[type=range].c17::-ms-track {
   background: linear-gradient(to right,#6c0 0%,#6c0 NaN% ,rgba(255,255,255,0.5) NaN%);
 }
 
-input[type=range].c17::-ms-fill-lower {
+input[type=range].c18::-ms-fill-lower {
   background: transparent;
 }
 
-input[type=range].c17::-ms-tooltip {
+input[type=range].c18::-ms-tooltip {
   display: none;
 }
 
-input[type=range].c17::-ms-tooltip {
+input[type=range].c18::-ms-tooltip {
   display: none;
 }
 
-.c16 {
+.c17 {
   color: #6c0;
   margin: 0 0.5rem;
 }
 
-.c18 {
+.c19 {
   color: white;
   margin: 0 0.5rem;
 }
 
-.c20 {
+.c21 {
   background: none;
   color: inherit;
   border: none;
@@ -838,7 +897,7 @@ input[type=range].c17::-ms-tooltip {
   align-items: center;
 }
 
-.c19 {
+.c20 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -852,13 +911,13 @@ input[type=range].c17::-ms-tooltip {
   align-items: center;
 }
 
-.c21 {
+.c22 {
   width: 100%;
   cursor: pointer;
   padding: 5px 0;
 }
 
-input[type=range].c21 {
+input[type=range].c22 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -866,11 +925,11 @@ input[type=range].c21 {
   background: transparent;
 }
 
-input[type=range].c21:focus {
+input[type=range].c22:focus {
   outline: none;
 }
 
-input[type=range].c21::-webkit-slider-thumb {
+input[type=range].c22::-webkit-slider-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -882,7 +941,7 @@ input[type=range].c21::-webkit-slider-thumb {
   margin-top: -3px;
 }
 
-input[type=range].c21::-moz-range-thumb {
+input[type=range].c22::-moz-range-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -895,7 +954,7 @@ input[type=range].c21::-moz-range-thumb {
   border: none;
 }
 
-input[type=range].c21::-ms-thumb {
+input[type=range].c22::-ms-thumb {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -908,25 +967,25 @@ input[type=range].c21::-ms-thumb {
   border: none;
 }
 
-input[type=range].c21::-webkit-slider-thumb:hover {
+input[type=range].c22::-webkit-slider-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c21::-moz-range-thumb:hover {
+input[type=range].c22::-moz-range-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c21::-ms-thumb:hover {
+input[type=range].c22::-ms-thumb:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-input[type=range].c21::-webkit-slider-runnable-track {
+input[type=range].c22::-webkit-slider-runnable-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -934,7 +993,7 @@ input[type=range].c21::-webkit-slider-runnable-track {
   background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,1)99.99% ,rgba(255,255,255,0.5) 100%);
 }
 
-input[type=range].c21::-moz-range-track {
+input[type=range].c22::-moz-range-track {
   width: 100%;
   height: 2px;
   cursor: pointer;
@@ -942,7 +1001,7 @@ input[type=range].c21::-moz-range-track {
   background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,1)99.99% ,rgba(255,255,255,0.5) 100%);
 }
 
-input[type=range].c21::-ms-track {
+input[type=range].c22::-ms-track {
   width: 100%;
   height: 2px;
   margin: 6px 0;
@@ -952,19 +1011,19 @@ input[type=range].c21::-ms-track {
   background: linear-gradient(to right,rgba(255,255,255,1) 0%,rgba(255,255,255,1)99.99% ,rgba(255,255,255,0.5) 100%);
 }
 
-input[type=range].c21::-ms-fill-lower {
+input[type=range].c22::-ms-fill-lower {
   background: transparent;
 }
 
-input[type=range].c21::-ms-tooltip {
+input[type=range].c22::-ms-tooltip {
   display: none;
 }
 
-input[type=range].c21::-ms-tooltip {
+input[type=range].c22::-ms-tooltip {
   display: none;
 }
 
-.c12 {
+.c13 {
   width: 100%;
   position: relative;
   -webkit-transition: opacity 0.4s;
@@ -972,7 +1031,7 @@ input[type=range].c21::-ms-tooltip {
   opacity: 0;
 }
 
-.c13 {
+.c14 {
   position: absolute;
   width: 100%;
   height: 56px;
@@ -994,7 +1053,7 @@ input[type=range].c21::-ms-tooltip {
   z-index: 9;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1011,14 +1070,14 @@ input[type=range].c21::-ms-tooltip {
   position: relative;
 }
 
-.c10 {
+.c11 {
   outline: none;
   width: 100%;
   height: 100%;
   font-size: 0;
 }
 
-.c11 {
+.c12 {
   width: 100%;
   height: 100%;
 }
@@ -1037,7 +1096,7 @@ input[type=range].c21::-ms-tooltip {
   z-index: 5;
 }
 
-.c9 {
+.c10 {
   position: absolute;
   z-index: 4;
   display: -webkit-box;
@@ -1057,6 +1116,19 @@ input[type=range].c21::-ms-tooltip {
 }
 
 @media (min-width:768px) {
+  .c8 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c23 > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width:768px) {
   .c5 {
     width: 200px;
     height: 200px;
@@ -1070,7 +1142,7 @@ input[type=range].c21::-ms-tooltip {
 }
 
 @media (min-width:768px) {
-  .c8 {
+  .c9 {
     display: none;
   }
 }
@@ -1134,7 +1206,7 @@ input[type=range].c21::-ms-tooltip {
                         class="c7"
                       >
                         <div
-                          class="TDS_Box-modules__verticalPadding-1___3lZ5x"
+                          class="c8"
                         >
                           <p
                             class="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__invertedColor___2tTa_ TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Paragraph-modules__centerAlign___19QxM TDS_Typography-modules__default___KlcpP"
@@ -1144,7 +1216,7 @@ input[type=range].c21::-ms-tooltip {
                         </div>
                       </span>
                       <span
-                        class="c8"
+                        class="c9"
                       >
                         <p
                           class="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__invertedColor___2tTa_ TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Paragraph-modules__centerAlign___19QxM TDS_Typography-modules__default___KlcpP"
@@ -1158,14 +1230,14 @@ input[type=range].c21::-ms-tooltip {
                 </div>
               </div>
               <div
-                class="c9"
+                class="c10"
               />
             </div>
             <div
-              class="c10"
+              class="c11"
             >
               <video
-                class="c11"
+                class="c12"
               >
                 <source
                   src="video.mp4"
@@ -1181,24 +1253,24 @@ input[type=range].c21::-ms-tooltip {
               </video>
             </div>
             <div
-              class="c12"
+              class="c13"
             >
               <div
-                class="c13"
+                class="c14"
               >
                 <div
-                  class="c14"
+                  class="c15"
                 >
                   <div
-                    class="c15"
+                    class="c16"
                   >
                     <p
-                      class="c16"
+                      class="c17"
                     >
                       -1:59
                     </p>
                     <input
-                      class="c17"
+                      class="c18"
                       max="0"
                       step="any"
                       tabindex="-1"
@@ -1206,18 +1278,18 @@ input[type=range].c21::-ms-tooltip {
                       value="-1"
                     />
                     <p
-                      class="c18"
+                      class="c19"
                     >
                       0:01
                     </p>
                   </div>
                 </div>
                 <div
-                  class="c19"
+                  class="c20"
                 >
                   <button
                     aria-label="Mute"
-                    class="c20"
+                    class="c21"
                   >
                     <svg
                       height="17px"
@@ -1265,7 +1337,7 @@ input[type=range].c21::-ms-tooltip {
                     </svg>
                   </button>
                   <input
-                    class="c21"
+                    class="c22"
                     id="volumeSlider"
                     max="1"
                     min="0"
@@ -1276,11 +1348,11 @@ input[type=range].c21::-ms-tooltip {
                   />
                 </div>
                 <div
-                  class="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+                  class="c23"
                 >
                   <button
                     aria-label="Select captions"
-                    class="c20"
+                    class="c21"
                   >
                     <svg
                       height="12px"
@@ -1312,7 +1384,7 @@ input[type=range].c21::-ms-tooltip {
                   </button>
                   <button
                     aria-label="Change video quality"
-                    class="c20"
+                    class="c21"
                   >
                     <svg
                       height="14px"
@@ -1349,7 +1421,7 @@ input[type=range].c21::-ms-tooltip {
                   </button>
                   <button
                     aria-label="Toggle fullscreen"
-                    class="c20"
+                    class="c21"
                   >
                     <svg
                       height="14px"
@@ -1760,22 +1832,59 @@ input[type=range].c21::-ms-tooltip {
                                                   tag="div"
                                                   vertical={1}
                                                 >
-                                                  <div
-                                                    className="TDS_Box-modules__verticalPadding-1___3lZ5x"
+                                                  <styled.div
+                                                    inline={false}
+                                                    tag="div"
+                                                    vertical={1}
                                                   >
-                                                    <Paragraph
-                                                      align="center"
-                                                      bold={true}
-                                                      invert={true}
-                                                      size="medium"
+                                                    <StyledComponent
+                                                      forwardedComponent={
+                                                        Object {
+                                                          "$$typeof": Symbol(react.forward_ref),
+                                                          "attrs": Array [
+                                                            [Function],
+                                                          ],
+                                                          "componentStyle": ComponentStyle {
+                                                            "componentId": "sc-bdVaJa",
+                                                            "isStatic": false,
+                                                            "lastClassName": "c23",
+                                                            "rules": Array [
+                                                              [Function],
+                                                            ],
+                                                          },
+                                                          "displayName": "styled.div",
+                                                          "foldedComponentIds": Array [],
+                                                          "render": [Function],
+                                                          "styledComponentId": "sc-bdVaJa",
+                                                          "target": "div",
+                                                          "toString": [Function],
+                                                          "warnTooManyClasses": [Function],
+                                                          "withComponent": [Function],
+                                                        }
+                                                      }
+                                                      forwardedRef={null}
+                                                      inline={false}
+                                                      tag="div"
+                                                      vertical={1}
                                                     >
-                                                      <p
-                                                        className="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__invertedColor___2tTa_ TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Paragraph-modules__centerAlign___19QxM TDS_Typography-modules__default___KlcpP"
+                                                      <div
+                                                        className="c8"
                                                       >
-                                                        Watch the video
-                                                      </p>
-                                                    </Paragraph>
-                                                  </div>
+                                                        <Paragraph
+                                                          align="center"
+                                                          bold={true}
+                                                          invert={true}
+                                                          size="medium"
+                                                        >
+                                                          <p
+                                                            className="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__invertedColor___2tTa_ TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Paragraph-modules__centerAlign___19QxM TDS_Typography-modules__default___KlcpP"
+                                                          >
+                                                            Watch the video
+                                                          </p>
+                                                        </Paragraph>
+                                                      </div>
+                                                    </StyledComponent>
+                                                  </styled.div>
                                                 </Box>
                                               </span>
                                             </StyledComponent>
@@ -1789,7 +1898,7 @@ input[type=range].c21::-ms-tooltip {
                                                   "componentStyle": ComponentStyle {
                                                     "componentId": "BigVideoButton__LittleWatchTextContainer-hhla36-4",
                                                     "isStatic": true,
-                                                    "lastClassName": "c8",
+                                                    "lastClassName": "c9",
                                                     "rules": Array [
                                                       "display: block;",
                                                       "@media (min-width: 768px) {",
@@ -1810,7 +1919,7 @@ input[type=range].c21::-ms-tooltip {
                                               forwardedRef={null}
                                             >
                                               <span
-                                                className="c8"
+                                                className="c9"
                                               >
                                                 <Paragraph
                                                   align="center"
@@ -1851,7 +1960,7 @@ input[type=range].c21::-ms-tooltip {
                       "componentStyle": ComponentStyle {
                         "componentId": "Video__VideoOverlayElementContainer-sc-10rnfmo-5",
                         "isStatic": true,
-                        "lastClassName": "c9",
+                        "lastClassName": "c10",
                         "rules": Array [
                           "position: absolute;",
                           "z-index: 4;",
@@ -1875,7 +1984,7 @@ input[type=range].c21::-ms-tooltip {
                   forwardedRef={null}
                 >
                   <div
-                    className="c9"
+                    className="c10"
                   />
                 </StyledComponent>
               </Video__VideoOverlayElementContainer>
@@ -1894,7 +2003,7 @@ input[type=range].c21::-ms-tooltip {
                 "componentStyle": ComponentStyle {
                   "componentId": "Video__VideoElementContainer-sc-10rnfmo-1",
                   "isStatic": true,
-                  "lastClassName": "c10",
+                  "lastClassName": "c11",
                   "rules": Array [
                     "outline: none;",
                     "width: 100%;",
@@ -1917,7 +2026,7 @@ input[type=range].c21::-ms-tooltip {
             videoIsFullscreen={false}
           >
             <div
-              className="c10"
+              className="c11"
             >
               <Video__VideoPlayer
                 controls={false}
@@ -1933,7 +2042,7 @@ input[type=range].c21::-ms-tooltip {
                       "componentStyle": ComponentStyle {
                         "componentId": "Video__VideoPlayer-sc-10rnfmo-2",
                         "isStatic": true,
-                        "lastClassName": "c11",
+                        "lastClassName": "c12",
                         "rules": Array [
                           "width: 100%;",
                           "height: 100%;",
@@ -1952,7 +2061,7 @@ input[type=range].c21::-ms-tooltip {
                   forwardedRef={
                     Object {
                       "current": <video
-                        class="c11"
+                        class="c12"
                       >
                         <source
                           src="video.mp4"
@@ -1972,7 +2081,7 @@ input[type=range].c21::-ms-tooltip {
                   videoIsFullscreen={false}
                 >
                   <video
-                    className="c11"
+                    className="c12"
                     controls={false}
                   >
                     <source
@@ -2054,7 +2163,7 @@ input[type=range].c21::-ms-tooltip {
           videoPlayer={
             Object {
               "current": <video
-                class="c11"
+                class="c12"
               >
                 <source
                   src="video.mp4"
@@ -2131,7 +2240,7 @@ input[type=range].c21::-ms-tooltip {
                             class="c7"
                           >
                             <div
-                              class="TDS_Box-modules__verticalPadding-1___3lZ5x"
+                              class="c8"
                             >
                               <p
                                 class="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__invertedColor___2tTa_ TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Paragraph-modules__centerAlign___19QxM TDS_Typography-modules__default___KlcpP"
@@ -2141,7 +2250,7 @@ input[type=range].c21::-ms-tooltip {
                             </div>
                           </span>
                           <span
-                            class="c8"
+                            class="c9"
                           >
                             <p
                               class="TDS_Typography-modules__wordBreak___3OZx_ TDS_Spacing-modules__noSpacing___XPYDG TDS_Typography-modules__invertedColor___2tTa_ TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Paragraph-modules__centerAlign___19QxM TDS_Typography-modules__default___KlcpP"
@@ -2155,14 +2264,14 @@ input[type=range].c21::-ms-tooltip {
                     </div>
                   </div>
                   <div
-                    class="c9"
+                    class="c10"
                   />
                 </div>
                 <div
-                  class="c10"
+                  class="c11"
                 >
                   <video
-                    class="c11"
+                    class="c12"
                   >
                     <source
                       src="video.mp4"
@@ -2178,24 +2287,24 @@ input[type=range].c21::-ms-tooltip {
                   </video>
                 </div>
                 <div
-                  class="c12"
+                  class="c13"
                 >
                   <div
-                    class="c13"
+                    class="c14"
                   >
                     <div
-                      class="c14"
+                      class="c15"
                     >
                       <div
-                        class="c15"
+                        class="c16"
                       >
                         <p
-                          class="c16"
+                          class="c17"
                         >
                           -1:59
                         </p>
                         <input
-                          class="c17"
+                          class="c18"
                           max="0"
                           step="any"
                           tabindex="-1"
@@ -2203,18 +2312,18 @@ input[type=range].c21::-ms-tooltip {
                           value="-1"
                         />
                         <p
-                          class="c18"
+                          class="c19"
                         >
                           0:01
                         </p>
                       </div>
                     </div>
                     <div
-                      class="c19"
+                      class="c20"
                     >
                       <button
                         aria-label="Mute"
-                        class="c20"
+                        class="c21"
                       >
                         <svg
                           height="17px"
@@ -2262,7 +2371,7 @@ input[type=range].c21::-ms-tooltip {
                         </svg>
                       </button>
                       <input
-                        class="c21"
+                        class="c22"
                         id="volumeSlider"
                         max="1"
                         min="0"
@@ -2273,11 +2382,11 @@ input[type=range].c21::-ms-tooltip {
                       />
                     </div>
                     <div
-                      class="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+                      class="c23"
                     >
                       <button
                         aria-label="Select captions"
-                        class="c20"
+                        class="c21"
                       >
                         <svg
                           height="12px"
@@ -2309,7 +2418,7 @@ input[type=range].c21::-ms-tooltip {
                       </button>
                       <button
                         aria-label="Change video quality"
-                        class="c20"
+                        class="c21"
                       >
                         <svg
                           height="14px"
@@ -2346,7 +2455,7 @@ input[type=range].c21::-ms-tooltip {
                       </button>
                       <button
                         aria-label="Toggle fullscreen"
-                        class="c20"
+                        class="c21"
                       >
                         <svg
                           height="14px"
@@ -2410,7 +2519,7 @@ input[type=range].c21::-ms-tooltip {
                   "componentStyle": ComponentStyle {
                     "componentId": "ControlBar__ControlBarContainer-sc-1wksqan-0",
                     "isStatic": false,
-                    "lastClassName": "c12",
+                    "lastClassName": "c13",
                     "rules": Array [
                       [Function],
                     ],
@@ -2434,7 +2543,7 @@ input[type=range].c21::-ms-tooltip {
               onMouseOver={[Function]}
             >
               <div
-                className="c12"
+                className="c13"
                 onBlur={[Function]}
                 onFocus={[Function]}
                 onMouseOut={[Function]}
@@ -2453,7 +2562,7 @@ input[type=range].c21::-ms-tooltip {
                         "componentStyle": ComponentStyle {
                           "componentId": "ControlBar__StyledControlBar-sc-1wksqan-1",
                           "isStatic": false,
-                          "lastClassName": "c13",
+                          "lastClassName": "c14",
                           "rules": Array [
                             [Function],
                           ],
@@ -2472,7 +2581,7 @@ input[type=range].c21::-ms-tooltip {
                     videoPlayerWidth={0}
                   >
                     <div
-                      className="c13"
+                      className="c14"
                     >
                       <ControlBar__VideoProgressBarContainer>
                         <StyledComponent
@@ -2483,7 +2592,7 @@ input[type=range].c21::-ms-tooltip {
                               "componentStyle": ComponentStyle {
                                 "componentId": "ControlBar__VideoProgressBarContainer-sc-1wksqan-2",
                                 "isStatic": true,
-                                "lastClassName": "c14",
+                                "lastClassName": "c15",
                                 "rules": Array [
                                   "display: flex;",
                                   "flex-grow: 1;",
@@ -2502,7 +2611,7 @@ input[type=range].c21::-ms-tooltip {
                           forwardedRef={null}
                         >
                           <div
-                            className="c14"
+                            className="c15"
                           >
                             <VideoProgressBar
                               resetInactivityTimer={[Function]}
@@ -2513,7 +2622,7 @@ input[type=range].c21::-ms-tooltip {
                               videoPlayer={
                                 Object {
                                   "current": <video
-                                    class="c11"
+                                    class="c12"
                                   >
                                     <source
                                       src="video.mp4"
@@ -2539,7 +2648,7 @@ input[type=range].c21::-ms-tooltip {
                                       "componentStyle": ComponentStyle {
                                         "componentId": "VideoProgressBar__ProgressBarContainer-sc-1lt9si3-0",
                                         "isStatic": true,
-                                        "lastClassName": "c15",
+                                        "lastClassName": "c16",
                                         "rules": Array [
                                           "display: flex;",
                                           "width: 100%;",
@@ -2559,7 +2668,7 @@ input[type=range].c21::-ms-tooltip {
                                   forwardedRef={null}
                                 >
                                   <div
-                                    className="c15"
+                                    className="c16"
                                   >
                                     <VideoProgressBar__StyledTimestamp>
                                       <StyledComponent
@@ -2570,7 +2679,7 @@ input[type=range].c21::-ms-tooltip {
                                             "componentStyle": ComponentStyle {
                                               "componentId": "VideoProgressBar__StyledTimestamp-sc-1lt9si3-1",
                                               "isStatic": false,
-                                              "lastClassName": "c18",
+                                              "lastClassName": "c19",
                                               "rules": Array [
                                                 [Function],
                                               ],
@@ -2588,7 +2697,7 @@ input[type=range].c21::-ms-tooltip {
                                         forwardedRef={null}
                                       >
                                         <p
-                                          className="c16"
+                                          className="c17"
                                         >
                                           -1:59
                                         </p>
@@ -2612,9 +2721,9 @@ input[type=range].c21::-ms-tooltip {
                                               [Function],
                                             ],
                                             "componentStyle": ComponentStyle {
-                                              "componentId": "sc-bdVaJa",
+                                              "componentId": "sc-bwzfXH",
                                               "isStatic": false,
-                                              "lastClassName": "c17",
+                                              "lastClassName": "c18",
                                               "rules": Array [
                                                 [Function],
                                               ],
@@ -2622,7 +2731,7 @@ input[type=range].c21::-ms-tooltip {
                                             "displayName": "styled.input",
                                             "foldedComponentIds": Array [],
                                             "render": [Function],
-                                            "styledComponentId": "sc-bdVaJa",
+                                            "styledComponentId": "sc-bwzfXH",
                                             "target": "input",
                                             "toString": [Function],
                                             "warnTooManyClasses": [Function],
@@ -2632,7 +2741,7 @@ input[type=range].c21::-ms-tooltip {
                                         forwardedRef={
                                           Object {
                                             "current": <input
-                                              class="c17"
+                                              class="c18"
                                               max="0"
                                               step="any"
                                               tabindex="-1"
@@ -2651,7 +2760,7 @@ input[type=range].c21::-ms-tooltip {
                                         videoCurrentTime={-1}
                                       >
                                         <input
-                                          className="c17"
+                                          className="c18"
                                           max={0}
                                           onChange={[Function]}
                                           onFocus={[Function]}
@@ -2673,7 +2782,7 @@ input[type=range].c21::-ms-tooltip {
                                             "componentStyle": ComponentStyle {
                                               "componentId": "VideoProgressBar__StyledTimestamp-sc-1lt9si3-1",
                                               "isStatic": false,
-                                              "lastClassName": "c18",
+                                              "lastClassName": "c19",
                                               "rules": Array [
                                                 [Function],
                                               ],
@@ -2692,7 +2801,7 @@ input[type=range].c21::-ms-tooltip {
                                         isRemaining={true}
                                       >
                                         <p
-                                          className="c18"
+                                          className="c19"
                                         >
                                           0:01
                                         </p>
@@ -2717,7 +2826,7 @@ input[type=range].c21::-ms-tooltip {
                         videoPlayer={
                           Object {
                             "current": <video
-                              class="c11"
+                              class="c12"
                             >
                               <source
                                 src="video.mp4"
@@ -2748,7 +2857,7 @@ input[type=range].c21::-ms-tooltip {
                                 "componentStyle": ComponentStyle {
                                   "componentId": "VolumeSlider__VolumeSliderContainer-hlqwx2-0",
                                   "isStatic": false,
-                                  "lastClassName": "c19",
+                                  "lastClassName": "c20",
                                   "rules": Array [
                                     [Function],
                                   ],
@@ -2767,7 +2876,7 @@ input[type=range].c21::-ms-tooltip {
                             videoPlayerWidth={0}
                           >
                             <div
-                              className="c19"
+                              className="c20"
                             >
                               <VideoButton
                                 icon={<Unmuted />}
@@ -2790,7 +2899,7 @@ input[type=range].c21::-ms-tooltip {
                                         "componentStyle": ComponentStyle {
                                           "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
                                           "isStatic": true,
-                                          "lastClassName": "c20",
+                                          "lastClassName": "c21",
                                           "rules": Array [
                                             "background: none;",
                                             "color: inherit;",
@@ -2819,7 +2928,7 @@ input[type=range].c21::-ms-tooltip {
                                   >
                                     <button
                                       aria-label="Mute"
-                                      className="c20"
+                                      className="c21"
                                       onClick={[Function]}
                                       onFocus={[Function]}
                                       onKeyDown={[Function]}
@@ -2894,7 +3003,7 @@ input[type=range].c21::-ms-tooltip {
                                       "componentStyle": ComponentStyle {
                                         "componentId": "VolumeSlider__StyledVolumeSlider-hlqwx2-1",
                                         "isStatic": false,
-                                        "lastClassName": "c21",
+                                        "lastClassName": "c22",
                                         "rules": Array [
                                           [Function],
                                         ],
@@ -2912,7 +3021,7 @@ input[type=range].c21::-ms-tooltip {
                                   forwardedRef={
                                     Object {
                                       "current": <input
-                                        class="c21"
+                                        class="c22"
                                         id="volumeSlider"
                                         max="1"
                                         min="0"
@@ -2935,7 +3044,7 @@ input[type=range].c21::-ms-tooltip {
                                   videoCurrentVolume={1}
                                 >
                                   <input
-                                    className="c21"
+                                    className="c22"
                                     id="volumeSlider"
                                     max="1"
                                     min="0"
@@ -2957,295 +3066,332 @@ input[type=range].c21::-ms-tooltip {
                         inline={true}
                         tag="div"
                       >
-                        <div
-                          className="TDS_Box-modules__betweenRightMargin-3___1dOvx TDS_Box-modules__inline___jTHcz"
+                        <styled.div
+                          between={3}
+                          inline={true}
+                          tag="div"
                         >
-                          <VideoButton
-                            icon={<ClosedCaptions />}
-                            label="Select captions"
-                            onBlur={[Function]}
-                            onClick={[Function]}
-                            onFocus={[Function]}
+                          <StyledComponent
+                            between={3}
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [
+                                  [Function],
+                                ],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "c23",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            inline={true}
+                            tag="div"
                           >
-                            <VideoButton__StyledButton
-                              aria-label="Select captions"
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onKeyDown={[Function]}
+                            <div
+                              className="c23"
                             >
-                              <StyledComponent
-                                aria-label="Select captions"
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
-                                      "isStatic": true,
-                                      "lastClassName": "c20",
-                                      "rules": Array [
-                                        "background: none;",
-                                        "color: inherit;",
-                                        "border: none;",
-                                        "padding: 0;",
-                                        "font: inherit;",
-                                        "cursor: pointer;",
-                                        "display: inline-flex;",
-                                        "align-items: center;",
-                                      ],
-                                    },
-                                    "displayName": "VideoButton__StyledButton",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
-                                    "target": "button",
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                              <VideoButton
+                                icon={<ClosedCaptions />}
+                                label="Select captions"
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 onFocus={[Function]}
-                                onKeyDown={[Function]}
                               >
-                                <button
+                                <VideoButton__StyledButton
                                   aria-label="Select captions"
-                                  className="c20"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
                                   onKeyDown={[Function]}
                                 >
-                                  <ClosedCaptions>
-                                    <svg
-                                      height="12px"
-                                      version="1.1"
-                                      viewBox="0 0 21 12"
-                                      width="21px"
-                                      xmlns="http://www.w3.org/2000/svg"
+                                  <StyledComponent
+                                    aria-label="Select captions"
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
+                                          "isStatic": true,
+                                          "lastClassName": "c21",
+                                          "rules": Array [
+                                            "background: none;",
+                                            "color: inherit;",
+                                            "border: none;",
+                                            "padding: 0;",
+                                            "font: inherit;",
+                                            "cursor: pointer;",
+                                            "display: inline-flex;",
+                                            "align-items: center;",
+                                          ],
+                                        },
+                                        "displayName": "VideoButton__StyledButton",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
+                                        "target": "button",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                  >
+                                    <button
+                                      aria-label="Select captions"
+                                      className="c21"
+                                      onBlur={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
                                     >
-                                      <g
-                                        fill="none"
-                                        fillRule="evenodd"
-                                        id="Page-1"
-                                        stroke="none"
-                                        strokeWidth="1"
-                                      >
-                                        <g
-                                          fill="#FFFFFF"
-                                          fillRule="nonzero"
-                                          id="Video---player-UI"
-                                          transform="translate(-779.000000, -481.000000)"
+                                      <ClosedCaptions>
+                                        <svg
+                                          height="12px"
+                                          version="1.1"
+                                          viewBox="0 0 21 12"
+                                          width="21px"
+                                          xmlns="http://www.w3.org/2000/svg"
                                         >
-                                          <path
-                                            d="M786.63,485.364 C786.592666,485.111999 786.508667,484.881001 786.378,484.671 C786.247333,484.460999 786.084001,484.276667 785.888,484.118 C785.691999,483.959333 785.470335,483.835667 785.223,483.747 C784.975665,483.658333 784.716668,483.614 784.446,483.614 C783.951331,483.614 783.531335,483.709666 783.186,483.901 C782.840665,484.092334 782.560668,484.348998 782.346,484.671 C782.131332,484.993002 781.975,485.359331 781.877,485.77 C781.779,486.180669 781.73,486.605331 781.73,487.044 C781.73,487.464002 781.779,487.872331 781.877,488.269 C781.975,488.665669 782.131332,489.022665 782.346,489.34 C782.560668,489.657335 782.840665,489.911666 783.186,490.103 C783.531335,490.294334 783.951331,490.39 784.446,490.39 C785.118003,490.39 785.642998,490.184669 786.021,489.774 C786.399002,489.363331 786.63,488.822003 786.714,488.15 L788.842,488.15 C788.786,488.775336 788.641334,489.339997 788.408,489.844 C788.174665,490.348003 787.866669,490.777332 787.484,491.132 C787.101331,491.486668 786.653336,491.757332 786.14,491.944 C785.626664,492.130668 785.062003,492.224 784.446,492.224 C783.680663,492.224 782.992336,492.091001 782.381,491.825 C781.769664,491.558999 781.254002,491.192669 780.834,490.726 C780.413998,490.259331 780.092001,489.711003 779.868,489.081 C779.643999,488.450997 779.532,487.772004 779.532,487.044 C779.532,486.29733 779.643999,485.604337 779.868,484.965 C780.092001,484.325663 780.413998,483.768002 780.834,483.292 C781.254002,482.815998 781.769664,482.442668 782.381,482.172 C782.992336,481.901332 783.680663,481.766 784.446,481.766 C784.996669,481.766 785.516998,481.845333 786.007,482.004 C786.497002,482.162667 786.935665,482.393665 787.323,482.697 C787.710335,483.000335 788.029999,483.375998 788.282,483.824 C788.534001,484.272002 788.692666,484.78533 788.758,485.364 L786.63,485.364 Z M797.004,485.364 C796.966666,485.111999 796.882667,484.881001 796.752,484.671 C796.621333,484.460999 796.458001,484.276667 796.262,484.118 C796.065999,483.959333 795.844335,483.835667 795.597,483.747 C795.349665,483.658333 795.090668,483.614 794.82,483.614 C794.325331,483.614 793.905335,483.709666 793.56,483.901 C793.214665,484.092334 792.934668,484.348998 792.72,484.671 C792.505332,484.993002 792.349,485.359331 792.251,485.77 C792.153,486.180669 792.104,486.605331 792.104,487.044 C792.104,487.464002 792.153,487.872331 792.251,488.269 C792.349,488.665669 792.505332,489.022665 792.72,489.34 C792.934668,489.657335 793.214665,489.911666 793.56,490.103 C793.905335,490.294334 794.325331,490.39 794.82,490.39 C795.492003,490.39 796.016998,490.184669 796.395,489.774 C796.773002,489.363331 797.004,488.822003 797.088,488.15 L799.216,488.15 C799.16,488.775336 799.015334,489.339997 798.782,489.844 C798.548665,490.348003 798.240669,490.777332 797.858,491.132 C797.475331,491.486668 797.027336,491.757332 796.514,491.944 C796.000664,492.130668 795.436003,492.224 794.82,492.224 C794.054663,492.224 793.366336,492.091001 792.755,491.825 C792.143664,491.558999 791.628002,491.192669 791.208,490.726 C790.787998,490.259331 790.466001,489.711003 790.242,489.081 C790.017999,488.450997 789.906,487.772004 789.906,487.044 C789.906,486.29733 790.017999,485.604337 790.242,484.965 C790.466001,484.325663 790.787998,483.768002 791.208,483.292 C791.628002,482.815998 792.143664,482.442668 792.755,482.172 C793.366336,481.901332 794.054663,481.766 794.82,481.766 C795.370669,481.766 795.890998,481.845333 796.381,482.004 C796.871002,482.162667 797.309665,482.393665 797.697,482.697 C798.084335,483.000335 798.403999,483.375998 798.656,483.824 C798.908001,484.272002 799.066666,484.78533 799.132,485.364 L797.004,485.364 Z"
-                                            id="CC"
-                                          />
-                                        </g>
-                                      </g>
-                                    </svg>
-                                  </ClosedCaptions>
-                                </button>
-                              </StyledComponent>
-                            </VideoButton__StyledButton>
-                          </VideoButton>
-                          <VideoButton
-                            icon={<FsExpand />}
-                            label="Change video quality"
-                            onBlur={[Function]}
-                            onClick={[Function]}
-                            onFocus={[Function]}
-                          >
-                            <VideoButton__StyledButton
-                              aria-label="Change video quality"
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onKeyDown={[Function]}
-                            >
-                              <StyledComponent
-                                aria-label="Change video quality"
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
-                                      "isStatic": true,
-                                      "lastClassName": "c20",
-                                      "rules": Array [
-                                        "background: none;",
-                                        "color: inherit;",
-                                        "border: none;",
-                                        "padding: 0;",
-                                        "font: inherit;",
-                                        "cursor: pointer;",
-                                        "display: inline-flex;",
-                                        "align-items: center;",
-                                      ],
-                                    },
-                                    "displayName": "VideoButton__StyledButton",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
-                                    "target": "button",
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                                          <g
+                                            fill="none"
+                                            fillRule="evenodd"
+                                            id="Page-1"
+                                            stroke="none"
+                                            strokeWidth="1"
+                                          >
+                                            <g
+                                              fill="#FFFFFF"
+                                              fillRule="nonzero"
+                                              id="Video---player-UI"
+                                              transform="translate(-779.000000, -481.000000)"
+                                            >
+                                              <path
+                                                d="M786.63,485.364 C786.592666,485.111999 786.508667,484.881001 786.378,484.671 C786.247333,484.460999 786.084001,484.276667 785.888,484.118 C785.691999,483.959333 785.470335,483.835667 785.223,483.747 C784.975665,483.658333 784.716668,483.614 784.446,483.614 C783.951331,483.614 783.531335,483.709666 783.186,483.901 C782.840665,484.092334 782.560668,484.348998 782.346,484.671 C782.131332,484.993002 781.975,485.359331 781.877,485.77 C781.779,486.180669 781.73,486.605331 781.73,487.044 C781.73,487.464002 781.779,487.872331 781.877,488.269 C781.975,488.665669 782.131332,489.022665 782.346,489.34 C782.560668,489.657335 782.840665,489.911666 783.186,490.103 C783.531335,490.294334 783.951331,490.39 784.446,490.39 C785.118003,490.39 785.642998,490.184669 786.021,489.774 C786.399002,489.363331 786.63,488.822003 786.714,488.15 L788.842,488.15 C788.786,488.775336 788.641334,489.339997 788.408,489.844 C788.174665,490.348003 787.866669,490.777332 787.484,491.132 C787.101331,491.486668 786.653336,491.757332 786.14,491.944 C785.626664,492.130668 785.062003,492.224 784.446,492.224 C783.680663,492.224 782.992336,492.091001 782.381,491.825 C781.769664,491.558999 781.254002,491.192669 780.834,490.726 C780.413998,490.259331 780.092001,489.711003 779.868,489.081 C779.643999,488.450997 779.532,487.772004 779.532,487.044 C779.532,486.29733 779.643999,485.604337 779.868,484.965 C780.092001,484.325663 780.413998,483.768002 780.834,483.292 C781.254002,482.815998 781.769664,482.442668 782.381,482.172 C782.992336,481.901332 783.680663,481.766 784.446,481.766 C784.996669,481.766 785.516998,481.845333 786.007,482.004 C786.497002,482.162667 786.935665,482.393665 787.323,482.697 C787.710335,483.000335 788.029999,483.375998 788.282,483.824 C788.534001,484.272002 788.692666,484.78533 788.758,485.364 L786.63,485.364 Z M797.004,485.364 C796.966666,485.111999 796.882667,484.881001 796.752,484.671 C796.621333,484.460999 796.458001,484.276667 796.262,484.118 C796.065999,483.959333 795.844335,483.835667 795.597,483.747 C795.349665,483.658333 795.090668,483.614 794.82,483.614 C794.325331,483.614 793.905335,483.709666 793.56,483.901 C793.214665,484.092334 792.934668,484.348998 792.72,484.671 C792.505332,484.993002 792.349,485.359331 792.251,485.77 C792.153,486.180669 792.104,486.605331 792.104,487.044 C792.104,487.464002 792.153,487.872331 792.251,488.269 C792.349,488.665669 792.505332,489.022665 792.72,489.34 C792.934668,489.657335 793.214665,489.911666 793.56,490.103 C793.905335,490.294334 794.325331,490.39 794.82,490.39 C795.492003,490.39 796.016998,490.184669 796.395,489.774 C796.773002,489.363331 797.004,488.822003 797.088,488.15 L799.216,488.15 C799.16,488.775336 799.015334,489.339997 798.782,489.844 C798.548665,490.348003 798.240669,490.777332 797.858,491.132 C797.475331,491.486668 797.027336,491.757332 796.514,491.944 C796.000664,492.130668 795.436003,492.224 794.82,492.224 C794.054663,492.224 793.366336,492.091001 792.755,491.825 C792.143664,491.558999 791.628002,491.192669 791.208,490.726 C790.787998,490.259331 790.466001,489.711003 790.242,489.081 C790.017999,488.450997 789.906,487.772004 789.906,487.044 C789.906,486.29733 790.017999,485.604337 790.242,484.965 C790.466001,484.325663 790.787998,483.768002 791.208,483.292 C791.628002,482.815998 792.143664,482.442668 792.755,482.172 C793.366336,481.901332 794.054663,481.766 794.82,481.766 C795.370669,481.766 795.890998,481.845333 796.381,482.004 C796.871002,482.162667 797.309665,482.393665 797.697,482.697 C798.084335,483.000335 798.403999,483.375998 798.656,483.824 C798.908001,484.272002 799.066666,484.78533 799.132,485.364 L797.004,485.364 Z"
+                                                id="CC"
+                                              />
+                                            </g>
+                                          </g>
+                                        </svg>
+                                      </ClosedCaptions>
+                                    </button>
+                                  </StyledComponent>
+                                </VideoButton__StyledButton>
+                              </VideoButton>
+                              <VideoButton
+                                icon={<FsExpand />}
+                                label="Change video quality"
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 onFocus={[Function]}
-                                onKeyDown={[Function]}
                               >
-                                <button
+                                <VideoButton__StyledButton
                                   aria-label="Change video quality"
-                                  className="c20"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
                                   onKeyDown={[Function]}
                                 >
-                                  <FsExpand>
-                                    <svg
-                                      height="14px"
-                                      version="1.1"
-                                      viewBox="0 0 14 14"
-                                      width="14px"
-                                      xmlns="http://www.w3.org/2000/svg"
+                                  <StyledComponent
+                                    aria-label="Change video quality"
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
+                                          "isStatic": true,
+                                          "lastClassName": "c21",
+                                          "rules": Array [
+                                            "background: none;",
+                                            "color: inherit;",
+                                            "border: none;",
+                                            "padding: 0;",
+                                            "font: inherit;",
+                                            "cursor: pointer;",
+                                            "display: inline-flex;",
+                                            "align-items: center;",
+                                          ],
+                                        },
+                                        "displayName": "VideoButton__StyledButton",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
+                                        "target": "button",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                  >
+                                    <button
+                                      aria-label="Change video quality"
+                                      className="c21"
+                                      onBlur={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
                                     >
-                                      <g
-                                        fill="none"
-                                        fillRule="evenodd"
-                                        id="Page-1"
-                                        stroke="none"
-                                        strokeWidth="1"
-                                      >
-                                        <g
-                                          fill="#FFFFFF"
-                                          fillRule="nonzero"
-                                          id="Video---player-UI"
-                                          transform="translate(-818.000000, -480.000000)"
+                                      <FsExpand>
+                                        <svg
+                                          height="14px"
+                                          version="1.1"
+                                          viewBox="0 0 14 14"
+                                          width="14px"
+                                          xmlns="http://www.w3.org/2000/svg"
                                         >
                                           <g
-                                            id="volume"
-                                            transform="translate(679.000150, 479.000000)"
+                                            fill="none"
+                                            fillRule="evenodd"
+                                            id="Page-1"
+                                            stroke="none"
+                                            strokeWidth="1"
                                           >
-                                            <path
-                                              d="M147.378134,15 L144.622637,15 C144.299765,15 144.026611,14.769 143.987675,14.46275 L143.750463,12.85275 C143.426392,12.7104167 143.112505,12.5330833 142.814193,12.3236667 L141.254941,12.93325 C140.945846,13.0423333 140.609196,12.921 140.46004,12.655 L139.085885,10.33975 C138.929541,10.0603333 138.996631,9.72491667 139.241631,9.53591667 L140.564269,8.5285 C140.544502,8.33133333 140.534318,8.16041667 140.534318,8 C140.534318,7.83958333 140.544502,7.66866667 140.565467,7.4715 L139.244027,6.46583333 C138.992438,6.27216667 138.925947,5.92566667 139.088281,5.6585 L140.464233,3.33975 C140.613988,3.07258333 140.954232,2.95241667 141.253144,3.06616667 L142.816589,3.6775 C143.128679,3.4605 143.437175,3.28608333 143.751062,3.14783333 L143.988873,1.53141667 C144.02721,1.231 144.300364,1 144.623236,1 L147.378733,1 C147.701606,1 147.974759,1.231 148.013696,1.53725 L148.250908,3.14783333 C148.574979,3.28958333 148.888267,3.46691667 149.186579,3.67691667 L150.745831,3.06733333 C151.053129,2.95708333 151.390378,3.079 151.540732,3.34558333 L152.914887,5.66083333 C153.07183,5.94025 153.004141,6.27566667 152.758542,6.46466667 L151.435903,7.4715 C151.452676,7.62666667 151.467053,7.80808333 151.467053,8 C151.467053,8.19191667 151.453275,8.37333333 151.435903,8.5285 L152.757344,9.53475 C153.004141,9.7255 153.071231,10.0609167 152.918481,10.3339167 L151.537138,12.6608333 C151.387383,12.928 151.045941,13.047 150.748227,12.9344167 L149.184782,12.3230833 C148.872692,12.5400833 148.564196,12.7145 148.250309,12.85275 L148.012498,14.4685833 C147.97416,14.769 147.701007,15 147.378134,15 Z M145.99985,10.8 C147.54377,10.8 148.79985,9.54392 148.79985,8 C148.79985,6.45608 147.54377,5.2 145.99985,5.2 C144.45593,5.2 143.19985,6.45608 143.19985,8 C143.19985,9.54392 144.45593,10.8 145.99985,10.8 Z"
-                                              id="Combined-Shape"
-                                            />
+                                            <g
+                                              fill="#FFFFFF"
+                                              fillRule="nonzero"
+                                              id="Video---player-UI"
+                                              transform="translate(-818.000000, -480.000000)"
+                                            >
+                                              <g
+                                                id="volume"
+                                                transform="translate(679.000150, 479.000000)"
+                                              >
+                                                <path
+                                                  d="M147.378134,15 L144.622637,15 C144.299765,15 144.026611,14.769 143.987675,14.46275 L143.750463,12.85275 C143.426392,12.7104167 143.112505,12.5330833 142.814193,12.3236667 L141.254941,12.93325 C140.945846,13.0423333 140.609196,12.921 140.46004,12.655 L139.085885,10.33975 C138.929541,10.0603333 138.996631,9.72491667 139.241631,9.53591667 L140.564269,8.5285 C140.544502,8.33133333 140.534318,8.16041667 140.534318,8 C140.534318,7.83958333 140.544502,7.66866667 140.565467,7.4715 L139.244027,6.46583333 C138.992438,6.27216667 138.925947,5.92566667 139.088281,5.6585 L140.464233,3.33975 C140.613988,3.07258333 140.954232,2.95241667 141.253144,3.06616667 L142.816589,3.6775 C143.128679,3.4605 143.437175,3.28608333 143.751062,3.14783333 L143.988873,1.53141667 C144.02721,1.231 144.300364,1 144.623236,1 L147.378733,1 C147.701606,1 147.974759,1.231 148.013696,1.53725 L148.250908,3.14783333 C148.574979,3.28958333 148.888267,3.46691667 149.186579,3.67691667 L150.745831,3.06733333 C151.053129,2.95708333 151.390378,3.079 151.540732,3.34558333 L152.914887,5.66083333 C153.07183,5.94025 153.004141,6.27566667 152.758542,6.46466667 L151.435903,7.4715 C151.452676,7.62666667 151.467053,7.80808333 151.467053,8 C151.467053,8.19191667 151.453275,8.37333333 151.435903,8.5285 L152.757344,9.53475 C153.004141,9.7255 153.071231,10.0609167 152.918481,10.3339167 L151.537138,12.6608333 C151.387383,12.928 151.045941,13.047 150.748227,12.9344167 L149.184782,12.3230833 C148.872692,12.5400833 148.564196,12.7145 148.250309,12.85275 L148.012498,14.4685833 C147.97416,14.769 147.701007,15 147.378134,15 Z M145.99985,10.8 C147.54377,10.8 148.79985,9.54392 148.79985,8 C148.79985,6.45608 147.54377,5.2 145.99985,5.2 C144.45593,5.2 143.19985,6.45608 143.19985,8 C143.19985,9.54392 144.45593,10.8 145.99985,10.8 Z"
+                                                  id="Combined-Shape"
+                                                />
+                                              </g>
+                                            </g>
                                           </g>
-                                        </g>
-                                      </g>
-                                    </svg>
-                                  </FsExpand>
-                                </button>
-                              </StyledComponent>
-                            </VideoButton__StyledButton>
-                          </VideoButton>
-                          <VideoButton
-                            icon={<FsExpand />}
-                            label="Toggle fullscreen"
-                            onBlur={[Function]}
-                            onClick={[Function]}
-                            onFocus={[Function]}
-                          >
-                            <VideoButton__StyledButton
-                              aria-label="Toggle fullscreen"
-                              onBlur={[Function]}
-                              onClick={[Function]}
-                              onFocus={[Function]}
-                              onKeyDown={[Function]}
-                            >
-                              <StyledComponent
-                                aria-label="Toggle fullscreen"
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
-                                      "isStatic": true,
-                                      "lastClassName": "c20",
-                                      "rules": Array [
-                                        "background: none;",
-                                        "color: inherit;",
-                                        "border: none;",
-                                        "padding: 0;",
-                                        "font: inherit;",
-                                        "cursor: pointer;",
-                                        "display: inline-flex;",
-                                        "align-items: center;",
-                                      ],
-                                    },
-                                    "displayName": "VideoButton__StyledButton",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
-                                    "target": "button",
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
+                                        </svg>
+                                      </FsExpand>
+                                    </button>
+                                  </StyledComponent>
+                                </VideoButton__StyledButton>
+                              </VideoButton>
+                              <VideoButton
+                                icon={<FsExpand />}
+                                label="Toggle fullscreen"
                                 onBlur={[Function]}
                                 onClick={[Function]}
                                 onFocus={[Function]}
-                                onKeyDown={[Function]}
                               >
-                                <button
+                                <VideoButton__StyledButton
                                   aria-label="Toggle fullscreen"
-                                  className="c20"
                                   onBlur={[Function]}
                                   onClick={[Function]}
                                   onFocus={[Function]}
                                   onKeyDown={[Function]}
                                 >
-                                  <FsExpand>
-                                    <svg
-                                      height="14px"
-                                      version="1.1"
-                                      viewBox="0 0 14 14"
-                                      width="14px"
-                                      xmlns="http://www.w3.org/2000/svg"
+                                  <StyledComponent
+                                    aria-label="Toggle fullscreen"
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
+                                          "isStatic": true,
+                                          "lastClassName": "c21",
+                                          "rules": Array [
+                                            "background: none;",
+                                            "color: inherit;",
+                                            "border: none;",
+                                            "padding: 0;",
+                                            "font: inherit;",
+                                            "cursor: pointer;",
+                                            "display: inline-flex;",
+                                            "align-items: center;",
+                                          ],
+                                        },
+                                        "displayName": "VideoButton__StyledButton",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "VideoButton__StyledButton-sc-1eqv6sz-0",
+                                        "target": "button",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
+                                      }
+                                    }
+                                    forwardedRef={null}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                  >
+                                    <button
+                                      aria-label="Toggle fullscreen"
+                                      className="c21"
+                                      onBlur={[Function]}
+                                      onClick={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
                                     >
-                                      <g
-                                        fill="none"
-                                        fillRule="evenodd"
-                                        id="Page-1"
-                                        stroke="none"
-                                        strokeWidth="1"
-                                      >
-                                        <g
-                                          fill="#FFFFFF"
-                                          id="Video---player-UI"
-                                          transform="translate(-851.000000, -480.000000)"
+                                      <FsExpand>
+                                        <svg
+                                          height="14px"
+                                          version="1.1"
+                                          viewBox="0 0 14 14"
+                                          width="14px"
+                                          xmlns="http://www.w3.org/2000/svg"
                                         >
                                           <g
-                                            id="volume"
-                                            transform="translate(679.000150, 479.000000)"
+                                            fill="none"
+                                            fillRule="evenodd"
+                                            id="Page-1"
+                                            stroke="none"
+                                            strokeWidth="1"
                                           >
-                                            <path
-                                              d="M180.31875,7.5086 L178.84975,6.0276 C178.75875,5.9356 178.75875,5.7866 178.84975,5.6966 L181.29875,3.2266 C181.38975,3.1346 181.38975,2.9866 181.29875,2.8946 L179.88175,1.4666 C179.73675,1.3206 179.83875,1.0696 180.04375,1.0666 L185.06875,0.9996 C185.19975,0.9986 185.30575,1.1056 185.30375,1.2376 L185.23875,6.3046 C185.23575,6.5116 184.98675,6.6126 184.84075,6.4666 L183.42475,5.0386 C183.33475,4.9466 183.18675,4.9466 183.09575,5.0386 L180.64675,7.5086 C180.55575,7.5996 180.40975,7.5996 180.31875,7.5086 Z M176.98575,7.7352 L178.45475,9.2162 C178.54575,9.3082 178.54575,9.4572 178.45475,9.5472 L176.00575,12.0172 C175.91475,12.1092 175.91475,12.2572 176.00575,12.3492 L177.42175,13.7772 C177.56675,13.9232 177.46575,14.1742 177.25975,14.1772 L172.23575,14.2442 C172.10475,14.2462 171.99875,14.1382 171.99975,14.0062 L172.06575,8.9402 C172.06875,8.7322 172.31675,8.6312 172.46275,8.7772 L173.87975,10.2062 C173.96975,10.2972 174.11675,10.2972 174.20775,10.2062 L176.65675,7.7352 C176.74775,7.6442 176.89475,7.6442 176.98575,7.7352 Z"
-                                              id="expand"
-                                            />
+                                            <g
+                                              fill="#FFFFFF"
+                                              id="Video---player-UI"
+                                              transform="translate(-851.000000, -480.000000)"
+                                            >
+                                              <g
+                                                id="volume"
+                                                transform="translate(679.000150, 479.000000)"
+                                              >
+                                                <path
+                                                  d="M180.31875,7.5086 L178.84975,6.0276 C178.75875,5.9356 178.75875,5.7866 178.84975,5.6966 L181.29875,3.2266 C181.38975,3.1346 181.38975,2.9866 181.29875,2.8946 L179.88175,1.4666 C179.73675,1.3206 179.83875,1.0696 180.04375,1.0666 L185.06875,0.9996 C185.19975,0.9986 185.30575,1.1056 185.30375,1.2376 L185.23875,6.3046 C185.23575,6.5116 184.98675,6.6126 184.84075,6.4666 L183.42475,5.0386 C183.33475,4.9466 183.18675,4.9466 183.09575,5.0386 L180.64675,7.5086 C180.55575,7.5996 180.40975,7.5996 180.31875,7.5086 Z M176.98575,7.7352 L178.45475,9.2162 C178.54575,9.3082 178.54575,9.4572 178.45475,9.5472 L176.00575,12.0172 C175.91475,12.1092 175.91475,12.2572 176.00575,12.3492 L177.42175,13.7772 C177.56675,13.9232 177.46575,14.1742 177.25975,14.1772 L172.23575,14.2442 C172.10475,14.2462 171.99875,14.1382 171.99975,14.0062 L172.06575,8.9402 C172.06875,8.7322 172.31675,8.6312 172.46275,8.7772 L173.87975,10.2062 C173.96975,10.2972 174.11675,10.2972 174.20775,10.2062 L176.65675,7.7352 C176.74775,7.6442 176.89475,7.6442 176.98575,7.7352 Z"
+                                                  id="expand"
+                                                />
+                                              </g>
+                                            </g>
                                           </g>
-                                        </g>
-                                      </g>
-                                    </svg>
-                                  </FsExpand>
-                                </button>
-                              </StyledComponent>
-                            </VideoButton__StyledButton>
-                          </VideoButton>
-                        </div>
+                                        </svg>
+                                      </FsExpand>
+                                    </button>
+                                  </StyledComponent>
+                                </VideoButton__StyledButton>
+                              </VideoButton>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
                       </Box>
                     </div>
                   </StyledComponent>
