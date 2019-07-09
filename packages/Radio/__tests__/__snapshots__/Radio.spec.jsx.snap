@@ -78,6 +78,10 @@ exports[`Radio allows numbers as value 1`] = `
   display: none;
 }
 
+.c6 {
+  width: 100%;
+}
+
 <div
   class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
 >
@@ -107,7 +111,7 @@ exports[`Radio allows numbers as value 1`] = `
         />
       </span>
       <div
-        class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+        class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D c6"
       >
         <div>
           <span
@@ -3289,24 +3293,24 @@ exports[`Radio must have a label 1`] = `
   cursor: pointer;
 }
 
-.c4:focus ~ .c0 > div > .c1 {
+.c5:focus ~ .c0 > div > .c1 {
   box-shadow: 0 0 4px 1px #54595f;
   border-color: #fff;
 }
 
-.c4:checked ~ .c0 > div > .c1 {
+.c5:checked ~ .c0 > div > .c1 {
   border-color: #54595f;
 }
 
-.c4:checked ~ .c0 > div > .c1 > span {
+.c5:checked ~ .c0 > div > .c1 > span {
   display: block;
 }
 
-.c4:disabled ~ .c0 > div > .c1 {
+.c5:disabled ~ .c0 > div > .c1 {
   border-color: #d8d8d8;
 }
 
-.c4:disabled ~ .c0 > div > div {
+.c5:disabled ~ .c0 > div > div {
   color: #d8d8d8;
 }
 
@@ -3316,6 +3320,10 @@ exports[`Radio must have a label 1`] = `
   border-radius: 50%;
   background-color: #248700;
   display: none;
+}
+
+.c4 {
+  width: 100%;
 }
 
 <label
@@ -3421,34 +3429,66 @@ exports[`Radio must have a label 1`] = `
           </span>
         </StyledComponent>
       </Radio__FakeRadio>
-      <Box
+      <Styled(Box)
         between={2}
-        inline={false}
-        tag="div"
       >
-        <div
-          className="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+        <StyledComponent
+          between={2}
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bwzfXH",
+                "isStatic": true,
+                "lastClassName": "c4",
+                "rules": Array [
+                  "width: 100%;",
+                ],
+              },
+              "displayName": "Styled(Box)",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bwzfXH",
+              "target": [Function],
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
         >
-          <ColoredTextProvider
+          <Box
+            between={2}
+            className="c4"
+            inline={false}
             tag="div"
           >
-            <div>
-              <Text
-                block={false}
-                bold={false}
-                invert={false}
-                size="base"
+            <div
+              className="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D c4"
+            >
+              <ColoredTextProvider
+                tag="div"
               >
-                <span
-                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__base___2nkPE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__baseFont___2Cfk4 TDS_Typography-modules__inheritColor___SREX0"
-                >
-                  Some label
-                </span>
-              </Text>
+                <div>
+                  <Text
+                    block={false}
+                    bold={false}
+                    invert={false}
+                    size="base"
+                  >
+                    <span
+                      className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__base___2nkPE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__baseFont___2Cfk4 TDS_Typography-modules__inheritColor___SREX0"
+                    >
+                      Some label
+                    </span>
+                  </Text>
+                </div>
+              </ColoredTextProvider>
             </div>
-          </ColoredTextProvider>
-        </div>
-      </Box>
+          </Box>
+        </StyledComponent>
+      </Styled(Box)>
     </div>
   </Box>
 </label>
@@ -3532,6 +3572,10 @@ exports[`Radio renders 1`] = `
   display: none;
 }
 
+.c6 {
+  width: 100%;
+}
+
 <div
   class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
 >
@@ -3561,7 +3605,7 @@ exports[`Radio renders 1`] = `
         />
       </span>
       <div
-        class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+        class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D c6"
       >
         <div>
           <span
