@@ -189,11 +189,31 @@ exports[`TextArea feedback states ensures that the contents do not overlap the i
 `;
 
 exports[`TextArea label can have a short hint 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 .c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (min-width:768px) {
+  .c1 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
 }
 
 <label
@@ -211,7 +231,7 @@ exports[`TextArea label can have a short hint 1`] = `
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-ifAKCX",
+            "componentId": "sc-EHOje",
             "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
@@ -221,7 +241,7 @@ exports[`TextArea label can have a short hint 1`] = `
           "displayName": "Styled(Box)",
           "foldedComponentIds": Array [],
           "render": [Function],
-          "styledComponentId": "sc-ifAKCX",
+          "styledComponentId": "sc-EHOje",
           "target": [Function],
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -238,36 +258,75 @@ exports[`TextArea label can have a short hint 1`] = `
         inline={true}
         tag="span"
       >
-        <span
-          className="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        <styled.div
+          between={2}
+          className="c0"
+          inline={true}
+          tag="span"
         >
-          <Text
-            block={false}
-            bold={true}
-            invert={false}
-            size="medium"
+          <StyledComponent
+            between={2}
+            className="c0"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  [Function],
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    [Function],
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            inline={true}
+            tag="span"
           >
             <span
-              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+              className="c0 sc-EHOje c0 c1"
             >
-              The textarea
+              <Text
+                block={false}
+                bold={true}
+                invert={false}
+                size="medium"
+              >
+                <span
+                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
+                >
+                  The textarea
+                </span>
+              </Text>
+              <Text
+                block={false}
+                bold={false}
+                id="the-textarea_hint"
+                invert={false}
+                size="small"
+              >
+                <span
+                  className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                  id="the-textarea_hint"
+                >
+                  The short hint
+                </span>
+              </Text>
             </span>
-          </Text>
-          <Text
-            block={false}
-            bold={false}
-            id="the-textarea_hint"
-            invert={false}
-            size="small"
-          >
-            <span
-              className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
-              id="the-textarea_hint"
-            >
-              The short hint
-            </span>
-          </Text>
-        </span>
+          </StyledComponent>
+        </styled.div>
       </Box>
     </StyledComponent>
   </Styled(Box)>
@@ -275,21 +334,63 @@ exports[`TextArea label can have a short hint 1`] = `
 `;
 
 exports[`TextArea renders 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.c4 {
   max-width: 100%;
   min-width: 100%;
   min-height: 208px;
   position: relative;
 }
 
-.c0 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.c2 {
+.c5 {
   max-width: 100%;
   min-width: 100%;
   min-height: 208px;
@@ -317,7 +418,7 @@ exports[`TextArea renders 1`] = `
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
 
-.c2::-webkit-input-placeholder {
+.c5::-webkit-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -327,7 +428,7 @@ exports[`TextArea renders 1`] = `
   color: #54595f;
 }
 
-.c2::-moz-placeholder {
+.c5::-moz-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -337,7 +438,7 @@ exports[`TextArea renders 1`] = `
   color: #54595f;
 }
 
-.c2:-ms-input-placeholder {
+.c5:-ms-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -347,7 +448,7 @@ exports[`TextArea renders 1`] = `
   color: #54595f;
 }
 
-.c2::placeholder {
+.c5::placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -357,38 +458,59 @@ exports[`TextArea renders 1`] = `
   color: #54595f;
 }
 
-.c2::-webkit-inner-spin-button,
-.c2::-webkit-outer-spin-button {
+.c5::-webkit-inner-spin-button,
+.c5::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.c2:focus {
+.c5:focus {
   border-color: transparent;
   box-shadow: 0 0 4px 1px #54595f;
   background-color: #fff;
 }
 
-.c3 {
+.c6 {
   position: absolute;
   right: 1rem;
   top: 0.5rem;
   overflow: visible;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
 <div
-  class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+  class="c0"
 >
   <div
-    class="TDS_Box-modules__spaceBetween___k4Ski TDS_Box-modules__inline___jTHcz"
+    class="c1"
   >
     <label
       for="the-textarea"
     >
       <span
-        class="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        class="c2 sc-EHOje c2 c3"
       >
         <span
           class="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
@@ -399,40 +521,82 @@ exports[`TextArea renders 1`] = `
     </label>
   </div>
   <div
-    class="c1"
+    class="c4"
   >
     <textarea
       aria-invalid="false"
-      class="c2"
+      class="c5"
       id="the-textarea"
     />
     <div
-      class="c3"
+      class="c6"
     />
   </div>
 </div>
 `;
 
 exports[`TextArea renders with a feedback state and icon 1`] = `
-.c4 {
-  line-height: 1;
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
 }
 
 .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.c7 {
+  line-height: 1;
+}
+
+.c4 {
   max-width: 100%;
   min-width: 100%;
   min-height: 208px;
   position: relative;
 }
 
-.c0 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.c2 {
+.c5 {
   max-width: 100%;
   min-width: 100%;
   min-height: 208px;
@@ -460,7 +624,7 @@ exports[`TextArea renders with a feedback state and icon 1`] = `
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
 
-.c2::-webkit-input-placeholder {
+.c5::-webkit-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -470,7 +634,7 @@ exports[`TextArea renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c2::-moz-placeholder {
+.c5::-moz-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -480,7 +644,7 @@ exports[`TextArea renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c2:-ms-input-placeholder {
+.c5:-ms-input-placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -490,7 +654,7 @@ exports[`TextArea renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c2::placeholder {
+.c5::placeholder {
   font: inherit;
   -webkit-letter-spacing: inherit;
   -moz-letter-spacing: inherit;
@@ -500,42 +664,63 @@ exports[`TextArea renders with a feedback state and icon 1`] = `
   color: #54595f;
 }
 
-.c2::-webkit-inner-spin-button,
-.c2::-webkit-outer-spin-button {
+.c5::-webkit-inner-spin-button,
+.c5::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   margin: 0;
 }
 
-.c2:focus {
+.c5:focus {
   border-color: transparent;
   box-shadow: 0 0 4px 1px #54595f;
   background-color: #fff;
 }
 
-.c2:not(:focus) {
+.c5:not(:focus) {
   border-color: #c12335;
 }
 
-.c3 {
+.c6 {
   position: absolute;
   right: 1rem;
   top: 0.5rem;
   overflow: visible;
 }
 
+@media (min-width:768px) {
+  .c0 > *:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 > *:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
 <div
-  class="TDS_Box-modules__betweenBottomMargin-2___31zX_ TDS_Box-modules__stack___33m4D"
+  class="c0"
 >
   <div
-    class="TDS_Box-modules__spaceBetween___k4Ski TDS_Box-modules__inline___jTHcz"
+    class="c1"
   >
     <label
       for="the-textarea"
     >
       <span
-        class="TDS_Box-modules__betweenRightMargin-2___20pzC TDS_Box-modules__inline___jTHcz c0"
+        class="c2 sc-EHOje c2 c3"
       >
         <span
           class="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__medium___1rxfE TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__boldFont___2YS3O TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__color___2CNH8"
@@ -546,21 +731,21 @@ exports[`TextArea renders with a feedback state and icon 1`] = `
     </label>
   </div>
   <div
-    class="c1"
+    class="c4"
   >
     <textarea
       aria-invalid="true"
-      class="c2"
+      class="c5"
       id="the-textarea"
     />
     <div
-      class="c3"
+      class="c6"
     >
       <div
         style="transition:opacity 100ms ease-in-out;opacity:1"
       >
         <div
-          class="c4"
+          class="c7"
         >
           <i
             aria-label="The value of this input field is invalid."
