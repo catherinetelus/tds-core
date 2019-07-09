@@ -1,13 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] = `
-.c4 {
+.c5 {
   position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
   -webkit-clip: rect(1px,1px,1px,1px);
   clip: rect(1px,1px,1px,1px);
+}
+
+.c3 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .c2 {
@@ -35,7 +46,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
   left: 12px;
 }
 
-.c3 {
+.c4 {
   width: calc(1008px - 1rem - 0.5rem);
   max-width: 100%;
 }
@@ -49,6 +60,15 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
 
 .c1 {
   position: absolute;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width:575px) {
@@ -186,9 +206,9 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
                           [Function],
                         ],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bdVaJa",
+                          "componentId": "sc-bwzfXH",
                           "isStatic": false,
-                          "lastClassName": "iXNTBS",
+                          "lastClassName": "eqAxCt",
                           "rules": Array [
                             "border-radius: 4px;",
                             [Function],
@@ -197,7 +217,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
                         "displayName": "Styled(Component)",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-bdVaJa",
+                        "styledComponentId": "sc-bwzfXH",
                         "target": [Function],
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -244,70 +264,121 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
                         tag="div"
                         vertical={2}
                       >
-                        <div
+                        <styled.div
                           aria-hidden="false"
                           aria-live="assertive"
-                          className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-2___1Uh2T c2"
+                          className="c2"
                           data-testid="bubble"
+                          horizontal={3}
                           id="standalone-tooltip-mc41_tooltip"
+                          inline={false}
                           role="tooltip"
+                          tag="div"
+                          vertical={2}
                         >
-                          <Bubble__InnerBubbleStyle
-                            bubbleWidth={
+                          <StyledComponent
+                            aria-hidden="false"
+                            aria-live="assertive"
+                            className="c2"
+                            data-testid="bubble"
+                            forwardedComponent={
                               Object {
-                                "width": "calc(1008px - 1rem - 0.5rem)",
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [
+                                  [Function],
+                                ],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "c3",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
                               }
                             }
+                            forwardedRef={null}
+                            horizontal={3}
+                            id="standalone-tooltip-mc41_tooltip"
+                            inline={false}
+                            role="tooltip"
+                            tag="div"
+                            vertical={2}
                           >
-                            <StyledComponent
-                              bubbleWidth={
-                                Object {
-                                  "width": "calc(1008px - 1rem - 0.5rem)",
-                                }
-                              }
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
-                                    "isStatic": false,
-                                    "lastClassName": "c3",
-                                    "rules": Array [
-                                      [Function],
-                                    ],
-                                  },
-                                  "displayName": "Bubble__InnerBubbleStyle",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
+                            <div
+                              aria-hidden="false"
+                              aria-live="assertive"
+                              className="c2 sc-bwzfXH c2 c3"
+                              data-testid="bubble"
+                              id="standalone-tooltip-mc41_tooltip"
+                              role="tooltip"
                             >
-                              <div
-                                className="c3"
+                              <Bubble__InnerBubbleStyle
+                                bubbleWidth={
+                                  Object {
+                                    "width": "calc(1008px - 1rem - 0.5rem)",
+                                  }
+                                }
                               >
-                                <Text
-                                  block={false}
-                                  bold={false}
-                                  invert={false}
-                                  size="small"
+                                <StyledComponent
+                                  bubbleWidth={
+                                    Object {
+                                      "width": "calc(1008px - 1rem - 0.5rem)",
+                                    }
+                                  }
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
+                                        "isStatic": false,
+                                        "lastClassName": "c4",
+                                        "rules": Array [
+                                          [Function],
+                                        ],
+                                      },
+                                      "displayName": "Bubble__InnerBubbleStyle",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
                                 >
-                                  <span
-                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                                  <div
+                                    className="c4"
                                   >
-                                    Tooltip text
-                                  </span>
-                                </Text>
-                              </div>
-                            </StyledComponent>
-                          </Bubble__InnerBubbleStyle>
-                        </div>
+                                    <Text
+                                      block={false}
+                                      bold={false}
+                                      invert={false}
+                                      size="small"
+                                    >
+                                      <span
+                                        className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                                      >
+                                        Tooltip text
+                                      </span>
+                                    </Text>
+                                  </div>
+                                </StyledComponent>
+                              </Bubble__InnerBubbleStyle>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
                       </Box>
                     </Component>
                   </StyledComponent>
@@ -371,7 +442,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
                                   "componentStyle": ComponentStyle {
                                     "componentId": "A11yContent__StyledA11yContent-sc-15wexwk-0",
                                     "isStatic": true,
-                                    "lastClassName": "c4",
+                                    "lastClassName": "c5",
                                     "rules": Array [
                                       "position: absolute;",
                                       "height: 1px;",
@@ -393,7 +464,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
                               forwardedRef={null}
                             >
                               <span
-                                className="c4"
+                                className="c5"
                               >
                                 Reveal additional information.
                               </span>
@@ -415,13 +486,24 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 1`] 
 `;
 
 exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] = `
-.c4 {
+.c5 {
   position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
   -webkit-clip: rect(1px,1px,1px,1px);
   clip: rect(1px,1px,1px,1px);
+}
+
+.c3 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .c2 {
@@ -449,7 +531,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
   left: 12px;
 }
 
-.c3 {
+.c4 {
   width: calc(1008px - 1rem - 0.5rem);
   max-width: 100%;
 }
@@ -463,6 +545,15 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
 
 .c1 {
   position: absolute;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width:575px) {
@@ -600,9 +691,9 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
                           [Function],
                         ],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bdVaJa",
+                          "componentId": "sc-bwzfXH",
                           "isStatic": false,
-                          "lastClassName": "iXNTBS",
+                          "lastClassName": "eqAxCt",
                           "rules": Array [
                             "border-radius: 4px;",
                             [Function],
@@ -611,7 +702,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
                         "displayName": "Styled(Component)",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-bdVaJa",
+                        "styledComponentId": "sc-bwzfXH",
                         "target": [Function],
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -658,70 +749,121 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
                         tag="div"
                         vertical={2}
                       >
-                        <div
+                        <styled.div
                           aria-hidden="false"
                           aria-live="assertive"
-                          className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-2___1Uh2T c2"
+                          className="c2"
                           data-testid="bubble"
+                          horizontal={3}
                           id="standalone-tooltip-mc41_tooltip"
+                          inline={false}
                           role="tooltip"
+                          tag="div"
+                          vertical={2}
                         >
-                          <Bubble__InnerBubbleStyle
-                            bubbleWidth={
+                          <StyledComponent
+                            aria-hidden="false"
+                            aria-live="assertive"
+                            className="c2"
+                            data-testid="bubble"
+                            forwardedComponent={
                               Object {
-                                "width": "calc(1008px - 1rem - 0.5rem)",
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [
+                                  [Function],
+                                ],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "c3",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
                               }
                             }
+                            forwardedRef={null}
+                            horizontal={3}
+                            id="standalone-tooltip-mc41_tooltip"
+                            inline={false}
+                            role="tooltip"
+                            tag="div"
+                            vertical={2}
                           >
-                            <StyledComponent
-                              bubbleWidth={
-                                Object {
-                                  "width": "calc(1008px - 1rem - 0.5rem)",
-                                }
-                              }
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
-                                    "isStatic": false,
-                                    "lastClassName": "c3",
-                                    "rules": Array [
-                                      [Function],
-                                    ],
-                                  },
-                                  "displayName": "Bubble__InnerBubbleStyle",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
+                            <div
+                              aria-hidden="false"
+                              aria-live="assertive"
+                              className="c2 sc-bwzfXH c2 c3"
+                              data-testid="bubble"
+                              id="standalone-tooltip-mc41_tooltip"
+                              role="tooltip"
                             >
-                              <div
-                                className="c3"
+                              <Bubble__InnerBubbleStyle
+                                bubbleWidth={
+                                  Object {
+                                    "width": "calc(1008px - 1rem - 0.5rem)",
+                                  }
+                                }
                               >
-                                <Text
-                                  block={false}
-                                  bold={false}
-                                  invert={false}
-                                  size="small"
+                                <StyledComponent
+                                  bubbleWidth={
+                                    Object {
+                                      "width": "calc(1008px - 1rem - 0.5rem)",
+                                    }
+                                  }
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
+                                        "isStatic": false,
+                                        "lastClassName": "c4",
+                                        "rules": Array [
+                                          [Function],
+                                        ],
+                                      },
+                                      "displayName": "Bubble__InnerBubbleStyle",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
                                 >
-                                  <span
-                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                                  <div
+                                    className="c4"
                                   >
-                                    Tooltip text
-                                  </span>
-                                </Text>
-                              </div>
-                            </StyledComponent>
-                          </Bubble__InnerBubbleStyle>
-                        </div>
+                                    <Text
+                                      block={false}
+                                      bold={false}
+                                      invert={false}
+                                      size="small"
+                                    >
+                                      <span
+                                        className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                                      >
+                                        Tooltip text
+                                      </span>
+                                    </Text>
+                                  </div>
+                                </StyledComponent>
+                              </Bubble__InnerBubbleStyle>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
                       </Box>
                     </Component>
                   </StyledComponent>
@@ -785,7 +927,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
                                   "componentStyle": ComponentStyle {
                                     "componentId": "A11yContent__StyledA11yContent-sc-15wexwk-0",
                                     "isStatic": true,
-                                    "lastClassName": "c4",
+                                    "lastClassName": "c5",
                                     "rules": Array [
                                       "position: absolute;",
                                       "height: 1px;",
@@ -807,7 +949,7 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
                               forwardedRef={null}
                             >
                               <span
-                                className="c4"
+                                className="c5"
                               >
                                 Reveal additional information.
                               </span>
@@ -829,6 +971,17 @@ exports[`Tooltip interactivity hides the bubble when clicking outside of it 2`] 
 `;
 
 exports[`Tooltip interactivity shows and hides the bubble 1`] = `
+.c1 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .c0 {
   border-radius: 4px;
   display: none;
@@ -855,9 +1008,18 @@ exports[`Tooltip interactivity shows and hides the bubble 1`] = `
   left: 12px;
 }
 
-.c1 {
+.c2 {
   width: calc(1008px - 1rem - 0.5rem);
   max-width: 100%;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width:575px) {
@@ -881,7 +1043,7 @@ exports[`Tooltip interactivity shows and hides the bubble 1`] = `
 <div
   aria-hidden="true"
   aria-live="assertive"
-  className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-2___1Uh2T c0"
+  className="c0 sc-bwzfXH c0 c1"
   data-testid="bubble"
   id="standalone-tooltip-mc41_tooltip"
   role="tooltip"
@@ -906,7 +1068,7 @@ exports[`Tooltip interactivity shows and hides the bubble 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
             "isStatic": false,
-            "lastClassName": "c1",
+            "lastClassName": "c2",
             "rules": Array [
               [Function],
             ],
@@ -924,7 +1086,7 @@ exports[`Tooltip interactivity shows and hides the bubble 1`] = `
       forwardedRef={null}
     >
       <div
-        className="c1"
+        className="c2"
       >
         <Text
           block={false}
@@ -945,6 +1107,17 @@ exports[`Tooltip interactivity shows and hides the bubble 1`] = `
 `;
 
 exports[`Tooltip interactivity shows and hides the bubble 2`] = `
+.c1 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .c0 {
   border-radius: 4px;
   position: absolute;
@@ -970,9 +1143,18 @@ exports[`Tooltip interactivity shows and hides the bubble 2`] = `
   left: 12px;
 }
 
-.c1 {
+.c2 {
   width: calc(1008px - 1rem - 0.5rem);
   max-width: 100%;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width:575px) {
@@ -996,7 +1178,7 @@ exports[`Tooltip interactivity shows and hides the bubble 2`] = `
 <div
   aria-hidden="false"
   aria-live="assertive"
-  className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-2___1Uh2T c0"
+  className="c0 sc-bwzfXH c0 c1"
   data-testid="bubble"
   id="standalone-tooltip-mc41_tooltip"
   role="tooltip"
@@ -1021,7 +1203,7 @@ exports[`Tooltip interactivity shows and hides the bubble 2`] = `
           "componentStyle": ComponentStyle {
             "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
             "isStatic": false,
-            "lastClassName": "c1",
+            "lastClassName": "c2",
             "rules": Array [
               [Function],
             ],
@@ -1039,7 +1221,7 @@ exports[`Tooltip interactivity shows and hides the bubble 2`] = `
       forwardedRef={null}
     >
       <div
-        className="c1"
+        className="c2"
       >
         <Text
           block={false}
@@ -1060,6 +1242,17 @@ exports[`Tooltip interactivity shows and hides the bubble 2`] = `
 `;
 
 exports[`Tooltip interactivity shows and hides the bubble 3`] = `
+.c1 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .c0 {
   border-radius: 4px;
   display: none;
@@ -1086,9 +1279,18 @@ exports[`Tooltip interactivity shows and hides the bubble 3`] = `
   left: 12px;
 }
 
-.c1 {
+.c2 {
   width: calc(1008px - 1rem - 0.5rem);
   max-width: 100%;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width:575px) {
@@ -1112,7 +1314,7 @@ exports[`Tooltip interactivity shows and hides the bubble 3`] = `
 <div
   aria-hidden="true"
   aria-live="assertive"
-  className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-2___1Uh2T c0"
+  className="c0 sc-bwzfXH c0 c1"
   data-testid="bubble"
   id="standalone-tooltip-mc41_tooltip"
   role="tooltip"
@@ -1137,7 +1339,7 @@ exports[`Tooltip interactivity shows and hides the bubble 3`] = `
           "componentStyle": ComponentStyle {
             "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
             "isStatic": false,
-            "lastClassName": "c1",
+            "lastClassName": "c2",
             "rules": Array [
               [Function],
             ],
@@ -1155,7 +1357,7 @@ exports[`Tooltip interactivity shows and hides the bubble 3`] = `
       forwardedRef={null}
     >
       <div
-        className="c1"
+        className="c2"
       >
         <Text
           block={false}
@@ -1176,13 +1378,24 @@ exports[`Tooltip interactivity shows and hides the bubble 3`] = `
 `;
 
 exports[`Tooltip renders 1`] = `
-.c4 {
+.c5 {
   position: absolute;
   height: 1px;
   width: 1px;
   overflow: hidden;
   -webkit-clip: rect(1px,1px,1px,1px);
   clip: rect(1px,1px,1px,1px);
+}
+
+.c3 {
+  display: block;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .c2 {
@@ -1211,7 +1424,7 @@ exports[`Tooltip renders 1`] = `
   left: 12px;
 }
 
-.c3 {
+.c4 {
   width: calc(1008px - 1rem - 0.5rem);
   max-width: 100%;
 }
@@ -1225,6 +1438,15 @@ exports[`Tooltip renders 1`] = `
 
 .c1 {
   position: absolute;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 @media (max-width:575px) {
@@ -1362,7 +1584,7 @@ exports[`Tooltip renders 1`] = `
                           [Function],
                         ],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bdVaJa",
+                          "componentId": "sc-bwzfXH",
                           "isStatic": false,
                           "lastClassName": "c2",
                           "rules": Array [
@@ -1373,7 +1595,7 @@ exports[`Tooltip renders 1`] = `
                         "displayName": "Styled(Component)",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-bdVaJa",
+                        "styledComponentId": "sc-bwzfXH",
                         "target": [Function],
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -1420,70 +1642,121 @@ exports[`Tooltip renders 1`] = `
                         tag="div"
                         vertical={2}
                       >
-                        <div
+                        <styled.div
                           aria-hidden="true"
                           aria-live="assertive"
-                          className="TDS_Box-modules__horizontalPadding-3___2uoUp TDS_Box-modules__verticalPadding-2___1Uh2T c2"
+                          className="c2"
                           data-testid="bubble"
+                          horizontal={3}
                           id="standalone-tooltip-mc41_tooltip"
+                          inline={false}
                           role="tooltip"
+                          tag="div"
+                          vertical={2}
                         >
-                          <Bubble__InnerBubbleStyle
-                            bubbleWidth={
+                          <StyledComponent
+                            aria-hidden="true"
+                            aria-live="assertive"
+                            className="c2"
+                            data-testid="bubble"
+                            forwardedComponent={
                               Object {
-                                "width": "calc(1008px - 1rem - 0.5rem)",
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [
+                                  [Function],
+                                ],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-bdVaJa",
+                                  "isStatic": false,
+                                  "lastClassName": "c3",
+                                  "rules": Array [
+                                    [Function],
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-bdVaJa",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
                               }
                             }
+                            forwardedRef={null}
+                            horizontal={3}
+                            id="standalone-tooltip-mc41_tooltip"
+                            inline={false}
+                            role="tooltip"
+                            tag="div"
+                            vertical={2}
                           >
-                            <StyledComponent
-                              bubbleWidth={
-                                Object {
-                                  "width": "calc(1008px - 1rem - 0.5rem)",
-                                }
-                              }
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
-                                    "isStatic": false,
-                                    "lastClassName": "c3",
-                                    "rules": Array [
-                                      [Function],
-                                    ],
-                                  },
-                                  "displayName": "Bubble__InnerBubbleStyle",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
+                            <div
+                              aria-hidden="true"
+                              aria-live="assertive"
+                              className="c2 sc-bwzfXH c2 c3"
+                              data-testid="bubble"
+                              id="standalone-tooltip-mc41_tooltip"
+                              role="tooltip"
                             >
-                              <div
-                                className="c3"
+                              <Bubble__InnerBubbleStyle
+                                bubbleWidth={
+                                  Object {
+                                    "width": "calc(1008px - 1rem - 0.5rem)",
+                                  }
+                                }
                               >
-                                <Text
-                                  block={false}
-                                  bold={false}
-                                  invert={false}
-                                  size="small"
+                                <StyledComponent
+                                  bubbleWidth={
+                                    Object {
+                                      "width": "calc(1008px - 1rem - 0.5rem)",
+                                    }
+                                  }
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
+                                        "isStatic": false,
+                                        "lastClassName": "c4",
+                                        "rules": Array [
+                                          [Function],
+                                        ],
+                                      },
+                                      "displayName": "Bubble__InnerBubbleStyle",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Bubble__InnerBubbleStyle-sc-15jatun-0",
+                                      "target": "div",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
                                 >
-                                  <span
-                                    className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                                  <div
+                                    className="c4"
                                   >
-                                    Tooltip text
-                                  </span>
-                                </Text>
-                              </div>
-                            </StyledComponent>
-                          </Bubble__InnerBubbleStyle>
-                        </div>
+                                    <Text
+                                      block={false}
+                                      bold={false}
+                                      invert={false}
+                                      size="small"
+                                    >
+                                      <span
+                                        className="TDS_Typography-modules__default___KlcpP TDS_Typography-modules__small___mt5lS TDS_Typography-modules__wordBreak___3OZx_ TDS_Typography-modules__smallFont___3S6nz TDS_Typography-modules__color___2CNH8"
+                                      >
+                                        Tooltip text
+                                      </span>
+                                    </Text>
+                                  </div>
+                                </StyledComponent>
+                              </Bubble__InnerBubbleStyle>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
                       </Box>
                     </Component>
                   </StyledComponent>
@@ -1547,7 +1820,7 @@ exports[`Tooltip renders 1`] = `
                                   "componentStyle": ComponentStyle {
                                     "componentId": "A11yContent__StyledA11yContent-sc-15wexwk-0",
                                     "isStatic": true,
-                                    "lastClassName": "c4",
+                                    "lastClassName": "c5",
                                     "rules": Array [
                                       "position: absolute;",
                                       "height: 1px;",
@@ -1569,7 +1842,7 @@ exports[`Tooltip renders 1`] = `
                               forwardedRef={null}
                             >
                               <span
-                                className="c4"
+                                className="c5"
                               >
                                 Reveal additional information.
                               </span>
